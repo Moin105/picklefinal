@@ -18,7 +18,7 @@ const Header = () => {
                         <li><a href="/collection">Pickle Paper</a></li>
                     </ul>
                 </figure>
-                <nav>
+                <nav>  
                     <ul>
                         <li><a href="/"><FaDiscord/></a></li>
                         <li><a href="/about"><FaTwitter/></a></li>
