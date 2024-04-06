@@ -1,0 +1,92 @@
+.banner {
+  display: flex;
+  height: 100vh;
+  margin-top: -100;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.banner .banner-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+.banner .banner-container .banner-left {
+  width: 60%;
+}
+.banner .banner-container .banner-left h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Poppins";
+  color: white;
+  text-align: justify;
+}
+.banner .banner-container .banner-left p {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins";
+  margin-top: 20px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1550px) {
+  .banner-container {
+    margin: 0 auto;
+  }
+  .banner-container .banner-left {
+    width: 60%;
+  }
+  .banner-container .banner-left h2 {
+    font-size: 32px !important;
+  }
+  .banner-container .banner-left p {
+    font-size: 18px !important;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .banner-container {
+    margin: 0 auto;
+  }
+  .banner-container .banner-left {
+    width: 60%;
+  }
+  .banner-container .banner-left h2 {
+    font-size: 28px !important;
+  }
+  .banner-container .banner-left p {
+    font-size: 15px !important;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 1186px) {
+  .banner-container {
+    margin: 0 auto;
+  }
+  .banner-container .banner-left {
+    width: 60%;
+  }
+  .banner-container .banner-left h2 {
+    font-size: 24px !important;
+  }
+  .banner-container .banner-left p {
+    font-size: 13px !important;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 930px) {
+  .banner-container {
+    margin: 0 auto;
+  }
+  .banner-container .banner-left {
+    width: 60%;
+  }
+  .banner-container .banner-left h2 {
+    font-size: 20px !important;
+  }
+  .banner-container .banner-left p {
+    font-size: 12px !important;
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=banner.css.map */

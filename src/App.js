@@ -1,23 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Header from './Components/Header/Header.jsx';
+import Banner from './Components/Banner/Banner.jsx';
+import Games from './Components/Games/Games.jsx';
+import SectionCollection from './Components/SectionCollection/SectionCollection.jsx';
+import Midsection from './Components/MidSection/Midsection.jsx';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  <Header/>
+  <Banner/>
+  <Games/>
+  <Midsection/>
+  <SectionCollection/>
+
     </div>
   );
 }

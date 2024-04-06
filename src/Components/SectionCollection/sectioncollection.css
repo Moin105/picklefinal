@@ -1,0 +1,153 @@
+.collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.collection .collection-container {
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+.collection .collection-container .nfts-section {
+  display: flex;
+  width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+  gap: 20px;
+}
+.collection .collection-container .nfts-section .nfts-left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.collection .collection-container .nfts-section .nfts-left h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Poppins";
+  color: white;
+  text-align: justify;
+}
+.collection .collection-container .nfts-section .nfts-left p {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins";
+  margin-top: 20px;
+  text-align: justify;
+}
+.collection .collection-container .nfts-section .nfts-left button {
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border: 1px solid green;
+  padding: 10px 20px;
+  font-family: "Poppins";
+  margin-top: 20px;
+  text-align: justify;
+}
+.collection .collection-container .revenue-section {
+  display: flex;
+  width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+  gap: 20px;
+}
+.collection .collection-container .revenue-section .revenue-left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.collection .collection-container .revenue-section .revenue-left h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Poppins";
+  color: white;
+  text-align: justify;
+}
+.collection .collection-container .revenue-section .revenue-left p {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins";
+  margin-top: 20px;
+  text-align: justify;
+}
+.collection .collection-container .revenue-section .revenue-left button {
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border: 1px solid green;
+  padding: 10px 20px;
+  font-family: "Poppins";
+  margin-top: 20px;
+  text-align: justify;
+}
+.collection .collection-container .community-section {
+  display: flex;
+  width: 90%;
+  min-height: 100vh;
+  margin: 0 auto;
+  gap: 20px;
+}
+.collection .collection-container .community-section .community-left {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.collection .collection-container .community-section .community-left h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Poppins";
+  color: white;
+  text-align: justify;
+}
+.collection .collection-container .community-section .community-left p {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins";
+  margin-top: 20px;
+  text-align: justify;
+}
+.collection .collection-container .community-section .community-left button {
+  font-size: 18px;
+  color: white;
+  background-color: black;
+  border: 1px solid green;
+  padding: 10px 20px;
+  font-family: "Poppins";
+  margin-top: 20px;
+  text-align: justify;
+}
+.collection .collection-right {
+  width: 50%;
+  gap: 20px;
+}
+.collection .collection-right img {
+  width: 37%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.collection .collection-right .image-1 {
+  margin: 20px;
+}
+.collection .collection-right .image-2 {
+  margin: 20px 20px -40px 20px;
+}
+.collection .collection-right .image-3 {
+  margin: 20px;
+}
+.collection .collection-right .image-4 {
+  margin: 20px 20px -40px 20px;
+}
+
+.collection-container::-webkit-scrollbar {
+  width: 0px;
+}/*# sourceMappingURL=sectioncollection.css.map */

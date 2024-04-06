@@ -1,0 +1,71 @@
+.pickle-trades {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.pickle-trades .pickle-trade-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  gap: 20px;
+  font-family: "Poppins";
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.pickle-trades .pickle-trade-container span {
+  font-size: 14px;
+  color: green;
+  font-family: "Poppins";
+}
+.pickle-trades .pickle-trade-container h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Poppins";
+  color: white;
+  text-align: justify;
+}
+.pickle-trades .pickle-trade-container p {
+  font-size: 14px;
+  color: white;
+  font-family: "Poppins";
+}
+.pickle-trades .pickle-trade-container img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.pickle-trades .pickle-trade-container .supply {
+  font-size: 14px;
+  color: white;
+}
+.pickle-trades .pickle-trade-container .trader-container {
+  display: flex;
+  gap: 20px;
+  width: 60%;
+  justify-content: space-between;
+}
+.pickle-trades .pickle-trade-container .trader-container .trader {
+  padding: 20px 40px;
+  border: 1px solid green;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 11px;
+}
+.pickle-trades .pickle-trade-container .trader-container .trader h3 {
+  font-size: 16px;
+  color: white;
+}
+.pickle-trades .pickle-trade-container .trader-container .trader img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=midsection.css.map */
