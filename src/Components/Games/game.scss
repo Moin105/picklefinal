@@ -12,13 +12,19 @@
         margin: 0 auto;
         gap: 20px;
         .games-left{
-            width: 50%;
+            width: 37%;
+            margin-top: 40px;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
             justify-content: flex-start;
+            span{
+                font-size: 16px;
+                color: green;
+                margin: 20px 0px 20px 0px;
+            }
             h2{
-                font-size: 42px;
+                font-size: 32px;
                 font-weight: 700;
                 font-family: 'Poppins';
                 color: white;
@@ -44,17 +50,18 @@
             }
         }
         .games-right{
-            width: 50%;
+            width: 63%;
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
             border-radius: 5px;
             padding: 20px 10px;
-            
+
             // background-color: #343434;
             gap: 20px;
             img{
-                width: 43%;
+                width: 47%;
+                border: 1px solid green;
                 border-radius: 3px;
             }
         }
@@ -66,14 +73,17 @@
     .games-container{
         margin: 0 auto;
         .games-left{
-            width: 60%;
+            width: 37%;
             h2{
-                font-size: 32px!important;
+                font-size: 24px!important;
             }
             p{
                 font-size: 18px !important;
                 margin-top: 20px;
 
+            }
+            button{
+                font-size: 14px;
             }
         }
     }
@@ -86,12 +96,15 @@
         .games-left{
             width: 60%;
             h2{
-                font-size: 28px!important;
+                font-size: 20px!important;
             }
             p{
-                font-size: 15px !important;
+                font-size: 14px !important;
                 margin-top: 20px;
 
+            }
+            button{
+                font-size: 12px;
             }
         }
     }
@@ -103,11 +116,11 @@
         .games-left{
             width: 60%;
             h2{
-                font-size: 24px!important;
+                font-size: 17px!important;
             }
             p{
-                font-size: 13px !important;
-                margin-top: 20px;
+                font-size: 11px !important;
+                margin-top: 10px;
 
             }
         }
@@ -120,10 +133,10 @@
         .games-left{
             width: 60%;
             h2{
-                font-size: 20px!important;
+                font-size: 16px!important;
             }
             p{
-                font-size: 12px !important;
+                font-size: 11px !important;
                 margin-top: 20px;
 
             }
