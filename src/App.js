@@ -5,12 +5,14 @@ import Banner from './Components/Banner/Banner.jsx';
 import Games from './Components/Games/Games.jsx';
 import SectionCollection from './Components/SectionCollection/SectionCollection.jsx';
 import Midsection from './Components/MidSection/Midsection.jsx';
+import Tokenomics from './Components/Tokenomics/Tokenomics.jsx';
 function App() {
   return (
     <div className="App">
   <Header/>
   <Banner/>
   <Games/>
+  <Tokenomics/>
   <Midsection/>
   <SectionCollection/>
 

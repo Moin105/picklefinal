@@ -19,15 +19,31 @@
   font-size: 42px;
   font-weight: 700;
   font-family: "Poppins";
+  min-width: 70%;
   color: white;
+  width: -webkit-fill-available;
   text-align: justify;
 }
 .banner .banner-container .banner-left p {
   font-size: 18px;
   color: white;
   font-family: "Poppins";
+  width: -webkit-fill-available;
   margin-top: 20px;
   text-align: justify;
+}
+.banner .banner-container .banner-right {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .banner-container .banner-right img {
+  width: 200px;
+  margin: 0 auto;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 @media only screen and (max-width: 1550px) {

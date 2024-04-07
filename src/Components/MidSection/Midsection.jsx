@@ -1,7 +1,7 @@
 import React from 'react'
 import swap from '../../Assets/swap.png'
 import dexxy from '../../Assets/dexyyy.png'
-import logo from '../../Assets/logo.jpg'
+import logo from '../../Assets/pick.png'
 import './midsection.css'
 import taptools from '../../Assets/taptools.png'
 function Midsection() {

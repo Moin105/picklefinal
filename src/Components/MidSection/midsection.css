@@ -1,6 +1,6 @@
 .pickle-trades {
   display: flex;
-  height: 100vh;
+  padding: 130px 0px;
   justify-content: center;
   align-items: center;
   max-width: 1920px;

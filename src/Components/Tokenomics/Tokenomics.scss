@@ -1,0 +1,107 @@
+.tokenomics{
+    display: flex;
+    // height: 100vh;
+    justify-content: center;
+    background-image: url('../../Assets/smoke.jpeg');
+    padding: 30px;
+    align-items: center;
+    
+    max-width: 1920px;
+    position: relative;
+    .spaef{
+        position: absolute;
+        z-index: -1;
+        top: -100px;
+        width: 150px;
+        img{
+            width: 100%;
+        }
+
+    }
+    margin: 0 auto;
+    .tokenomics-container{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+         .card-item{
+            padding: 20px;
+            border-radius: 12px;
+            background-color: white;
+            justify-content: center;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            h2{
+                font-size: 38px;
+            }
+            .suo{
+                max-width: 50%;
+                text-align: center;
+            }
+          .items { 
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+            .item-right{
+                display: flex;
+                width: 40%;
+                flex-direction: column;
+                gap: 20px;
+
+            }
+            .item-left{
+                display: flex;
+                width: 50%;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                gap: 20px;
+
+            }}
+         }
+
+    }
+}
+
+.nomics-card{
+    display: flex;
+    padding: 20px;
+    border: 1px solid green;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 12px;
+    max-width: 400px;
+    gap: 10px;
+    .nomics-card-left{
+        height: 20px;
+        width: 20px;
+        display: flex;
+    }
+    .nomics-card-right{
+        display: flex;
+   
+        flex-direction: column;
+        width: 90%;
+        h3{
+            font-size: 18px;
+            font-weight: 700;
+            font-family: 'Poppins';
+            color: black;
+        }
+        p{
+            font-size: 14px;
+            font-family: 'Poppins';
+            color: black;
+            text-align: left !important;
+            width: 100%;
+        }
+    }
+}
+.imageStyle{
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}

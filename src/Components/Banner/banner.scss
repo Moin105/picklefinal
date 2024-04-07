@@ -16,15 +16,30 @@
                 font-size: 42px;
                 font-weight: 700;
                 font-family: 'Poppins';
+                min-width: 70%;
                 color: white;
+                width: -webkit-fill-available;
                 text-align: justify;
             }
             p{
                 font-size: 18px;
                 color: white;
                 font-family: 'Poppins';
+                width: -webkit-fill-available;
                 margin-top: 20px;
                 text-align: justify;
+            }
+        }
+        .banner-right{
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 200px;
+                margin: 0 auto;
+                height: 100%;
+                object-fit: contain;
             }
         }
     }
