@@ -3,6 +3,7 @@ import logo from '../../Assets/Picture2.png';
 import { FaDiscord } from "react-icons/fa6";
 import { MdOutlineMenu } from "react-icons/md";
 import { RiTwitterXLine } from "react-icons/ri";
+import { IoMdClose } from "react-icons/io";
 
 import {motion } from 'framer-motion'
 import './Header.css'
@@ -34,21 +35,24 @@ const Header = () => {
                 <nav>  
                     <ul>
                     
-                        <li style={{cursor:"pointer"}} onClick={()=>{setIsOpen(!isOpen)}}><a><MdOutlineMenu/></a></li>
+                        <li style={{cursor:"pointer"}} onClick={()=>{setIsOpen(!isOpen)}}><a>{isOpen ? <IoMdClose/>:<MdOutlineMenu/>}</a></li>
                     </ul>
                <motion.div className='dieef'
-                    initial={{width:"200px",height:"0px"}}
+                    initial={{width:"100%",height:"0px",top:"65px",left:0,position:"fixed",zIndex:1000,backgroundColor:"black",boxShadow:"10px 10px 0 rgba(0, 0, 0, 0.2)",display:"flex",flexDirection:"column",justifyContent:"space-between",alignItems:"center"}}
                     animate={{
-    height: isOpen ? "200px" : "0px",
+    height: isOpen ? "calc(100% - 65px )" : "0px",
     backgroundColor: "white",
-    x: !isOpen ? "0" : "-150px",
     boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
     position: "fixed",
   }}
   transition={{ delay: 1 }}
                     >
+                    <div className='ertyuytr' >
+                    {/*<IoMdClose    onClick={()=>{setIsOpen(!isOpen)}}/>*/}
+                    </div>
                           <motion.ul 
-                          initial={{opacity:"0px"}}
+                          initial={{opacity:"0"}}
+                          className='navrpe'
                           transition={{ delay: 1 }}
                             animate={{
 
@@ -61,14 +65,14 @@ const Header = () => {
                         <li><a onClick={()=>{setIsOpen(false)}} style={{color:"black!important"}} href="/collection">Pickle Paper</a></li>
                     </motion.ul>
                     <motion.ul 
-                          initial={{opacity:"0px"}}
+                          initial={{opacity:"0"}}
                           transition={{ delay: 1 }}
-                           className='navrpe'
+                           className='navrped'
                             animate={{
 
                                 opacity: isOpen ? "1" : "0",
                             }}
-                          style={{display:"flex",flexDirection:"column"}}>
+                          style={{display:"flex"}}>
                         <li style={{color:"black !important"}}  onClick={()=>{setIsOpen(!isOpen)}}><a style={{color:"black !important"}} href="/"><FaDiscord/></a></li>
                         <li style={{color:"black !important"}}  onClick={()=>{setIsOpen(!isOpen)}}><a style={{color:"black !important"}} href="/about"><RiTwitterXLine/></a></li>
                     </motion.ul>
