@@ -2,7 +2,8 @@ import React from 'react'
 import './learnmore.css'
 import Learn from '../../Assets/learn.jpg'
 import { FaDiscord } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa";
+import { RiTwitterXLine } from "react-icons/ri";
+
 function LearnMore() {
   return (
     <div className='learncontainer'>
@@ -17,7 +18,7 @@ function LearnMore() {
     <div className='learnbottom'>
             <p>What are you waiting for?</p>
             <div className='box-span'>
-                <FaTwitter/>
+                <RiTwitterXLine/>
                 <FaDiscord/>
             </div>
     </div>
