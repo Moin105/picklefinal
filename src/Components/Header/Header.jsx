@@ -69,7 +69,7 @@ const Header = () => {
                                 opacity: isOpen ? "1" : "0",
                             }}
                           style={{display:"flex",flexDirection:"column"}}>
-                        <li style={{color:"black !important"}}  onClick={()=>{setIsOpen(!isOpen)}}><a style={{color:"black !important"}} href="/"><RiTwitterXLine/></a></li>
+                        <li style={{color:"black !important"}}  onClick={()=>{setIsOpen(!isOpen)}}><a style={{color:"black !important"}} href="/"><FaDiscord/></a></li>
                         <li style={{color:"black !important"}}  onClick={()=>{setIsOpen(!isOpen)}}><a style={{color:"black !important"}} href="/about"><RiTwitterXLine/></a></li>
                     </motion.ul>
                     </motion.div>
