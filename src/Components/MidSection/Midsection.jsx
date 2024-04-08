@@ -13,7 +13,7 @@ function Midsection() {
          <p>Providing dilish utility to those who hodl.</p>
          <img src={logo}/>
          <span className='supply'>Token Supply : <b> 69,696,969,696</b></span>
-         <span className='supply'>Policy ID  : <b> 3c8cceafc16845f6ee5afe36f1521f0d1a384b55a69242eb5154cdef
+         <span className='supply sas'>Policy ID  : <b> 3c8cceafc16845f6ee5afe36f1521f0d1a384b55a69242eb5154cdef
 </b></span>
          <div className='trader-container'>
             <div className='trader'>

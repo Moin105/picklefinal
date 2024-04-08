@@ -60,7 +60,7 @@ function Banner() {
       hsl(0 0% 0% / 0),
       hsl(0 0% 0% / 1) 10%,
       hsl(0 0% 0% / 1) 90%,
-      hsl(0 0% 0% / 0)
+      hsl(0 0% 0% / 0) 
     );
   `;
   const Marquee23 = styled.div`

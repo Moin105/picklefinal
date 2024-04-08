@@ -105,4 +105,30 @@
     font-size: 12px !important;
     margin-top: 20px;
   }
+}
+@media only screen and (max-width: 786px) {
+  .banner-container {
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .banner-container .banner-left {
+    width: 80% !important;
+  }
+  .banner-container .banner-left h2 {
+    font-size: 20px !important;
+    width: 100%;
+  }
+  .banner-container .banner-left p {
+    font-size: 12px !important;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .banner-container .banner-right {
+    width: 100% !important;
+  }
+  .banner-container .banner-right img {
+    width: 100%;
+    height: 100%;
+  }
 }/*# sourceMappingURL=banner.css.map */

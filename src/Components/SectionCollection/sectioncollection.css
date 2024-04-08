@@ -2,32 +2,30 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 70px;
   max-width: 1920px;
   margin: 0 auto;
 }
 .collection .collection-container {
-  height: 100vh;
-  overflow-y: scroll;
   display: flex;
-  width: 50%;
+  width: 90%;
   flex-direction: column;
 }
 .collection .collection-container .nfts-section {
   display: flex;
-  width: 90%;
-  min-height: 100vh;
+  width: 100%;
   margin: 0 auto;
+  justify-content: space-between;
   gap: 20px;
 }
 .collection .collection-container .nfts-section .nfts-left {
-  width: 100%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
 }
 .collection .collection-container .nfts-section .nfts-left h2 {
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 700;
   font-family: "Poppins";
   color: white;
@@ -50,22 +48,56 @@
   margin-top: 20px;
   text-align: justify;
 }
+.collection .collection-container .nfts-section .nfts-left button:hover {
+  background-color: green;
+  color: black;
+}
+.collection .collection-container .nfts-section .nfts-right {
+  width: 45%;
+  gap: 20px;
+  justify-content: flex-end;
+  display: flex;
+}
+.collection .collection-container .nfts-section .nfts-right .image-box {
+  display: flex;
+  width: 48%;
+  flex-direction: column;
+  gap: 20px;
+}
+.collection .collection-container .nfts-section .nfts-right .image-box img {
+  width: 100%;
+  border-radius: 8px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.collection .collection-container .nfts-section .nfts-right .image-box2 {
+  margin-top: 160px;
+  width: 48%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.collection .collection-container .nfts-section .nfts-right .image-box2 img {
+  width: 100%;
+  border-radius: 8px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 .collection .collection-container .revenue-section {
   display: flex;
-  width: 90%;
-  min-height: 100vh;
-  margin: 0 auto;
+  width: 100%;
+  margin: -135px auto;
+  justify-content: space-between;
   gap: 20px;
 }
 .collection .collection-container .revenue-section .revenue-left {
-  width: 100%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
 }
 .collection .collection-container .revenue-section .revenue-left h2 {
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 700;
   font-family: "Poppins";
   color: white;
@@ -88,22 +120,59 @@
   margin-top: 20px;
   text-align: justify;
 }
-.collection .collection-container .community-section {
+.collection .collection-container .revenue-section .revenue-left button:hover {
+  background-color: green;
+  color: black;
+}
+.collection .collection-container .revenue-section .revenue-right {
+  width: 45%;
+  gap: 20px;
+  justify-content: flex-end;
   display: flex;
-  width: 90%;
-  min-height: 100vh;
-  margin: 0 auto;
+  gap: 20px;
+  justify-content: flex-end;
+  display: flex;
+}
+.collection .collection-container .revenue-section .revenue-right .image-box {
+  display: flex;
+  width: 48%;
+  flex-direction: column;
   gap: 20px;
 }
-.collection .collection-container .community-section .community-left {
+.collection .collection-container .revenue-section .revenue-right .image-box img {
   width: 100%;
+  border-radius: 8px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.collection .collection-container .revenue-section .revenue-right .image-box2 {
+  margin-top: 160px;
+  width: 48%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.collection .collection-container .revenue-section .revenue-right .image-box2 img {
+  width: 100%;
+  border-radius: 8px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.collection .collection-container .community-section {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  gap: 20px;
+  justify-content: space-between;
+}
+.collection .collection-container .community-section .community-left {
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
 }
 .collection .collection-container .community-section .community-left h2 {
-  font-size: 42px;
+  font-size: 32px;
   font-weight: 700;
   font-family: "Poppins";
   color: white;
@@ -125,6 +194,41 @@
   font-family: "Poppins";
   margin-top: 20px;
   text-align: justify;
+}
+.collection .collection-container .community-section .community-left button:hover {
+  background-color: green;
+  color: black;
+}
+.collection .collection-container .community-section .community-right {
+  width: 45%;
+  justify-content: flex-end;
+  display: flex;
+  gap: 20px;
+}
+.collection .collection-container .community-section .community-right .image-box {
+  display: flex;
+  width: 48%;
+  flex-direction: column;
+  gap: 20px;
+}
+.collection .collection-container .community-section .community-right .image-box img {
+  width: 100%;
+  border-radius: 8px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.collection .collection-container .community-section .community-right .image-box2 {
+  margin-top: 160px;
+  width: 48%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.collection .collection-container .community-section .community-right .image-box2 img {
+  width: 100%;
+  border-radius: 8px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .collection .collection-right {
   width: 50%;
@@ -150,4 +254,83 @@
 
 .collection-container::-webkit-scrollbar {
   width: 0px;
+}
+
+@media only screen and (max-width: 786px) {
+  .collection-container {
+    gap: 40px;
+  }
+  .nfts-section {
+    flex-direction: column;
+  }
+  .nfts-section .nfts-left {
+    width: 100% !important;
+    align-items: center !important;
+  }
+  .nfts-section .nfts-left h2 {
+    text-align: center;
+  }
+  .nfts-section .nfts-left p {
+    text-align: center;
+  }
+  .nfts-section .nfts-left button {
+    margin: 0 auto;
+  }
+  .nfts-section .nfts-left button:hover {
+    background-color: green;
+    color: black;
+  }
+  .nfts-section .nfts-right {
+    width: 100% !important;
+  }
+  .revenue-section {
+    margin: 0 auto !important;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  .revenue-section .revenue-left {
+    width: 100% !important;
+    align-items: center !important;
+  }
+  .revenue-section .revenue-left h2 {
+    text-align: center;
+  }
+  .revenue-section .revenue-left p {
+    text-align: center;
+  }
+  .revenue-section .revenue-left button {
+    margin: 0 auto;
+  }
+  .revenue-section .revenue-left button:hover {
+    background-color: green;
+    color: black;
+  }
+  .revenue-section .revenue-right {
+    width: 100% !important;
+  }
+  .community-section {
+    margin: 0 auto !important;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  .community-section .community-left {
+    width: 100% !important;
+    align-items: center !important;
+  }
+  .community-section .community-left h2 {
+    text-align: center;
+  }
+  .community-section .community-left p {
+    text-align: center;
+  }
+  .community-section .community-left button {
+    margin: 0 auto;
+  }
+  .community-section .community-left button:hover {
+    background-color: green;
+    color: black;
+  }
+  .community-section .community-right {
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=sectioncollection.css.map */

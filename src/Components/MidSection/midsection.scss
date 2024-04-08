@@ -70,3 +70,60 @@
         }
     }
 }
+
+@media only screen and (max-width: 1180px) {
+    .trader-container{
+        display: flex;
+        gap: 20px;
+        width: 75% !important;
+        justify-content: space-between;
+        .trader{
+            padding: 20px 40px;
+            border: 1px solid green;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 11px;
+            h3{
+                font-size: 16px;
+                color:white
+            }
+            img{
+                width: 100px;
+                height: 100px;
+                object-fit: contain;
+            }
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 890px) {
+    .trader-container{
+        display: flex;
+        gap: 20px;
+        width: 90% !important;
+        justify-content: space-between;
+      
+    }
+
+}
+
+@media only screen and (max-width: 786px) {
+    .sas{
+        display: none !important;
+    }
+    .trader-container{
+        display: flex;
+        gap: 20px;
+        width: 90% !important;
+        flex-direction: column;
+        justify-content: space-between;
+    
+      
+    }
+
+}

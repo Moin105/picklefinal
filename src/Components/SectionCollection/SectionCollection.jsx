@@ -88,7 +88,16 @@ function SectionCollection() {
           </p>
           <button>Buy Now</button>
         </div>
-        <div ref={ref1}></div>
+        <div className="nfts-right">
+        <div  className="image-box">
+        <img src={pickle1} className="image-1"/>
+        <img src={pickle3} className="image-3"/>
+        </div>
+        <div  className="image-box2">
+        <img src={pickle2} className="image-2"/>
+        <img src={pickle4} className="image-4"/>
+        </div>
+    </div>
       </div>
       <div className="revenue-section">
         <div className="revenue-left">
@@ -96,7 +105,16 @@ function SectionCollection() {
 
           <button>Learn more</button>
         </div>
-        <div ref={ref2}></div>
+        <div className="revenue-right">
+        <div  className="image-box">
+        <img src={pickle5} className="image-1"/>
+        <img src={pickle7} className="image-3"/>
+        </div>
+        <div  className="image-box2">
+        <img src={pickle6} className="image-2"/>
+        <img src={pickle2} className="image-4"/>
+        </div>
+    </div>
       </div>
       <div className="community-section">
         <div className="community-left">
@@ -104,12 +122,22 @@ function SectionCollection() {
 
           <button>Join the Community</button>
         </div>
-        <div ref={ref3}></div>
+        <div className="community-right">
+        <div  className="image-box">
+        <img src={pickle1} className="image-1"/>
+        <img src={pickle3} className="image-3"/>
+        </div>
+        <div  className="image-box2">
+        <img src={pickle2} className="image-2"/>
+        <img src={pickle4} className="image-4"/>
+        </div>
+    </div>
+    
       </div>
     </div>
-    <div className="collection-right">
+   {/* <div className="collection-right">
     {renderImagesForSection(activeSection)}
-    </div>
+    </div>*/}
     </div>
   );
 }
