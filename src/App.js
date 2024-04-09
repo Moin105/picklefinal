@@ -7,6 +7,7 @@ import SectionCollection from './Components/SectionCollection/SectionCollection.
 import Midsection from './Components/MidSection/Midsection.jsx';
 import Tokenomics from './Components/Tokenomics/Tokenomics.jsx';
 import LearnMore from './Components/LearnMore/LearnMore.jsx';
+import Footer from './Components/Footer/Footer.jsx';
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,7 @@ function App() {
   <Midsection/>
   <SectionCollection/>
   <LearnMore/>
-
+<Footer/>
     </div>
   );
 }

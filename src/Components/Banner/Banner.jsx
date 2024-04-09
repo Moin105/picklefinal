@@ -9,6 +9,10 @@ import pickle5 from "../../Assets/pickle5.png";
 import pick from '../../Assets/pick.png'
 import pickle6 from "../../Assets/pickle6.png";
 import pickle7 from "../../Assets/pickle7.jpeg";
+import pickle8 from "../../Assets/pickle8.png";
+import pickle9 from "../../Assets/pickle9.png";
+import pickle10 from "../../Assets/pickle10.jpeg";
+
 // import VideoPlayer from "./videoplayer";
 import videoSource from "../../Assets/hero.mp4";
 import VideoAsGif from "./videoplayer";
@@ -28,22 +32,28 @@ function Banner() {
     pickle5,
     pickle6,
     pickle7,
+    pickle8,
+    pickle9,
+    pickle10
   ];
   const row2 = [
     pickle1,
     pickle2,
     pickle3,
-    // pickle4,
+    pickle4,
     // pickle5,
     // pickle6,
     // pickle7,
     // pickle1,
     // pickle2,
-    pickle3,
+    // pickle3,
     pickle4,
     pickle5,
     pickle6,
     pickle7,
+    pickle8,
+    pickle9,
+    pickle10
   ];
   const Marquee = styled.div`
     display: flex;
@@ -78,7 +88,7 @@ function Banner() {
     hsl(0 0% 0% / 0),
     hsl(0 0% 0% / 1) 10%,
     hsl(0 0% 0% / 1) 90%,
-    hsl(0 0% 0% / 0)
+    hsl(0 0% 0% / 0) 
   );
   `;
   const Marquee234 = styled.div`

@@ -1,10 +1,9 @@
 import React,{useState} from 'react';
-import logo from '../../Assets/Picture2.png';
 import { FaDiscord } from "react-icons/fa6";
 import { MdOutlineMenu } from "react-icons/md";
 import { RiTwitterXLine } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
-
+import logosa from '../../Assets/logosa.png'
 import {motion } from 'framer-motion'
 import './Header.css'
 const Header = () => {
@@ -13,24 +12,23 @@ const Header = () => {
         <header className="headers">
             <div className="header">
                 <figure>
-                    <img src={logo} alt="Logo"/>
+                    <img src={logosa} alt="Logo"/>
                     <ul>
                         {/* <li><a href="/">Home</a></li> */}
-                        <li><a href="/about">Pickle Arcade</a></li>
-                        <li><a href="/collection">Picklehub</a></li>
-                        <li><a href="/collection">Pickle Paper</a></li>
+                        <li><a href="/picklehub">Picklehub</a></li>
+                        <li><a href="/staking">Staking</a></li>
+                        <li><a href="/picklepaper">Pickle Paper</a></li>
                     </ul>
                 </figure>
                 <nav>  
-                    <ul>
-                        <li><a href="/"><FaDiscord/></a></li>
-                        <li><a href="/about"><RiTwitterXLine/></a></li>
-                    </ul>
+                    <button className='arcade'>
+                    Launch Arcade
+                    </button>
                 </nav>
             </div>
             <div className='nav-header'>
             <figure>
-                    <img src={logo} alt="Logo"/>
+                    <img src={logosa} alt="Logo"/>
                 </figure>
                 <nav>  
                     <ul>
@@ -45,7 +43,7 @@ const Header = () => {
     boxShadow: "10px 10px 0 rgba(0, 0, 0, 0.2)",
     position: "fixed",
   }}
-  transition={{ delay: 1 }}
+  transition={{ delay: 0.3 }}
                     >
                     <div className='ertyuytr' >
                     {/*<IoMdClose    onClick={()=>{setIsOpen(!isOpen)}}/>*/}
@@ -53,7 +51,8 @@ const Header = () => {
                           <motion.ul 
                           initial={{opacity:"0"}}
                           className='navrpe'
-                          transition={{ delay: 1 }}
+                          transition={{ delay: 0.3 }}
+
                             animate={{
 
                                 opacity: isOpen ? "1" : "0",

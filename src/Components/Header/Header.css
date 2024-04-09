@@ -40,6 +40,34 @@
   border-bottom: 1px solid #fff;
   transition: border-bottom 2s ease;
 }
+.headers .header nav {
+  /* Define the gradient for the border */
+}
+.headers .header nav .arcade {
+  display: inline-block;
+  padding: 5px 15px;
+  font-size: 16px;
+  color: #fff; /* Text color */
+  background-color: #000; /* arcade background color */
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-family: "Poppins";
+}
+.headers .header nav .arcade::before {
+  content: ""; /* Required for pseudo-element */
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  z-index: -1;
+  background: linear-gradient(to bottom right, #78ab46, #f7df63);
+  border-radius: 3px;
+}
+.headers .header nav .arcade:hover::before {
+  background: linear-gradient(to bottom right, #f7df63, #78ab46);
+}
 .headers .header nav ul {
   display: flex;
   list-style: none;
