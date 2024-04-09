@@ -59,8 +59,8 @@ const Header = () => {
                             }}
                           style={{display:"flex",flexDirection:"column"}}>
                         {/* <li><a href="/">Home</a></li> */}
-                        <li><a onClick={()=>{setIsOpen(false)}} style={{color:"black!important"}} href="/about" >Pickle Arcade</a></li>
                         <li><a onClick={()=>{setIsOpen(false)}} style={{color:"black!important"}} href="/collection">Picklehub</a></li>
+                        <li><a onClick={()=>{setIsOpen(false)}} style={{color:"black!important"}} href="/about" >Staking</a></li>
                         <li><a onClick={()=>{setIsOpen(false)}} style={{color:"black!important"}} href="/collection">Pickle Paper</a></li>
                     </motion.ul>
                     <motion.ul 
@@ -71,10 +71,11 @@ const Header = () => {
 
                                 opacity: isOpen ? "1" : "0",
                             }}
-                          style={{display:"flex"}}>
-                        <li style={{color:"black !important"}}  onClick={()=>{setIsOpen(!isOpen)}}><a style={{color:"black !important"}} href="/"><FaDiscord/></a></li>
-                        <li style={{color:"black !important"}}  onClick={()=>{setIsOpen(!isOpen)}}><a style={{color:"black !important"}} href="/about"><RiTwitterXLine/></a></li>
-                    </motion.ul>
+                          style={{display:"flex",margin:"0px 0px 30px 0px"}}>
+                          <button className='arcade'>
+                            Launch Arcade
+                          </button>
+                          </motion.ul>
                     </motion.div>
                 </nav>
             </div>

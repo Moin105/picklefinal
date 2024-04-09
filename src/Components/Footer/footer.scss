@@ -286,4 +286,52 @@
             width: 50% !important;
         }
     }
+    .lower {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        .one {
+          display: flex;
+          gap: 20px;
+          font-size: 16px;
+          font-family: "Poppins";
+          color: white;
+          a{
+              text-decoration: none;
+              color: white;
+          }
+        }
+        .two{
+          font-size: 16px;
+          font-family: "Poppins";
+          align-items: center;
+          p{
+              margin: 0;
+          }
+          color: white;display: flex;
+        }
+        .three{
+        width: 220px;
+  
+          ul{
+              display: flex;padding: 0;
+              margin: 0 auto;
+              justify-content: center;
+              list-style-type: none;
+              gap: 20px;
+              li{
+                  a{
+                      display: flex;
+                      gap: 20px;
+                      font-size: 24px;
+                      font-family: "Poppins";
+                      color: white;
+                      text-decoration: none;
+                  }
+              }
+          }
+        }
+      }
 }

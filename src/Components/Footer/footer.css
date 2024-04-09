@@ -278,4 +278,51 @@
     margin: 0 auto;
     width: 50% !important;
   }
+  .lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .lower .one {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+    font-family: "Poppins";
+    color: white;
+  }
+  .lower .one a {
+    text-decoration: none;
+    color: white;
+  }
+  .lower .two {
+    font-size: 16px;
+    font-family: "Poppins";
+    align-items: center;
+    color: white;
+    display: flex;
+  }
+  .lower .two p {
+    margin: 0;
+  }
+  .lower .three {
+    width: 220px;
+  }
+  .lower .three ul {
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+  }
+  .lower .three ul li a {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+    font-family: "Poppins";
+    color: white;
+    text-decoration: none;
+  }
 }/*# sourceMappingURL=footer.css.map */

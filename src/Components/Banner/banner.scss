@@ -11,7 +11,7 @@
         width: 90%;
         margin: 0 auto;
         .banner-left{
-            width: 60%;
+            max-width: 734px;
             h2{
                 font-size: 42px;
                 font-weight: 700;
@@ -24,6 +24,8 @@
             p{
                 font-size: 18px;
                 color: white;
+                width: 75%;
+
                 font-family: 'Poppins';
                 width: -webkit-fill-available;
                 margin-top: 20px;

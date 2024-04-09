@@ -25,7 +25,7 @@ function Midsection() {
                 <img src={taptools}/>
             </div>
             <div className='trader'>
-                <h3>Miniswap</h3>
+                <h3>Minswap</h3>
                 <img src={swap}/>
             </div>
          </div>
