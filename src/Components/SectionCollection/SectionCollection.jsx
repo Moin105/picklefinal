@@ -9,6 +9,12 @@ import pickle4 from "../../Assets/pickle4.png";
 import pickle5 from "../../Assets/pickle5.png";
 import pickle6 from "../../Assets/pickle6.png";
 import pickle7 from "../../Assets/pickle7.jpeg";
+import pickle8 from "../../Assets/pickle8.png";
+import pickle9 from "../../Assets/pickle9.png";
+import pickle10 from "../../Assets/pickle10.jpeg";
+import pickle11 from "../../Assets/pickle11.png";
+import pickle12 from "../../Assets/pickle12.png";
+
 function SectionCollection() {
     const [isVisible, setIsVisible] = useState(false);
     const [isVisible2, setIsVisible2] = useState(false);
@@ -80,12 +86,12 @@ function SectionCollection() {
     <div className="collection-container">
       <div className="nfts-section">
         <div className="nfts-left">
-          <span>Revenue Share Through Asset Ownership</span>
-          <h2>Become a holder of $PICKLE and PickleButt NFTs</h2>
+          <span>Revenue Share Through Asset Ownership</span><br></br>
+          <h2>Become a holder of $PICKLE and PickleButt NFTs</h2><br></br>
           <p>
             We reward those who are part of our ecosystem by gathering holders
             utlity to earn crypto yield from the arcade service fees.
-          </p>
+          </p><br></br>
           <button>Buy Now</button>
         </div>
         <div className="nfts-right">
@@ -101,7 +107,7 @@ function SectionCollection() {
       </div>
       <div className="revenue-section">
         <div className="revenue-left">
-          <h2>Want to learn more details about how revenue share works</h2>
+          <h2>Want to learn more details about how revenue share works</h2><br></br>
 
           <button>Learn more</button>
         </div>
@@ -112,24 +118,24 @@ function SectionCollection() {
         </div>
         <div  className="image-box2">
         <img src={pickle6} className="image-2"/>
-        <img src={pickle2} className="image-4"/>
+        <img src={pickle8} className="image-4"/>
         </div>
     </div>
       </div>
       <div className="community-section">
         <div className="community-left">
-          <h2>What are you waiting for ?</h2>
+          <h2>What are you waiting for ?</h2><br></br>
 
           <button>Join the Community</button>
         </div>
         <div className="community-right">
         <div  className="image-box">
-        <img src={pickle1} className="image-1"/>
-        <img src={pickle3} className="image-3"/>
+        <img src={pickle9} className="image-1"/>
+        <img src={pickle11} className="image-3"/>
         </div>
         <div  className="image-box2">
-        <img src={pickle2} className="image-2"/>
-        <img src={pickle4} className="image-4"/>
+        <img src={pickle10} className="image-2"/>
+        <img src={pickle12} className="image-4"/>
         </div>
     </div>
     

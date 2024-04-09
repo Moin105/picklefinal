@@ -10,8 +10,8 @@ function LearnMore() {
 
    
     <div className='learnmore'>
-            <h2>Want to learn more about what we are building?</h2>
-            <p>Check out our average white paper</p>
+            <h2>Want to learn more about what we are building?</h2><br></br>
+            <p>Check out our average white paper</p><br></br>
             <img src={Learn}/>  
             <button>Read White Paper</button>
     </div>

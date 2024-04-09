@@ -178,7 +178,7 @@ function Banner() {
       
       <div className="banner-container">
         <div className="banner-left">
-          <h2>Welcome to the new era of online arcade</h2>
+          <h2>Welcome to the new era of online arcade</h2><br></br>
           <p>
             Step into the premier online platform where competitive gaming
       

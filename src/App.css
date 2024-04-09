@@ -1,10 +1,13 @@
 @media only screen and (max-width: 1550px) {
   h2 {
     font-size: 26px !important;
+   display: contents;
   }
   p {
     font-size: 14px !important;
     margin-top: 20px;
+    display: block;
+
   }
 }
 

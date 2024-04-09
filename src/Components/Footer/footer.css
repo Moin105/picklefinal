@@ -129,7 +129,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
     gap: 20px;
   }
   .footer .footer-container .lower .one {
@@ -249,7 +248,7 @@
     display: flex;
     padding: 0;
     margin: 0 auto;
-    justify-content: flex-end;
+    justify-content: center;
     list-style-type: none;
     gap: 20px;
   }
