@@ -31,14 +31,14 @@
                 font-family: 'Poppins';
                 color: white;
             
-                text-align: justify;
+                text-align: left;
             }
             p{
                 font-size: 18px;
                 color: white;
                 font-family: 'Poppins';
                 margin-top: 20px;
-                text-align: justify;
+                text-align: left;
             }
             button{
                 font-size: 18px;
@@ -48,7 +48,7 @@
                 padding: 10px 20px;
                 font-family: 'Poppins';
                 margin-top: 20px;
-                text-align: justify;
+                text-align: left;
                 &:hover {
                     background-color: green;
                     color: black;
