@@ -27,7 +27,6 @@
                 width: 75%;
 
                 font-family: 'Poppins';
-                width: -webkit-fill-available;
                 margin-top: 20px;
                 text-align: justify;
             }
@@ -53,6 +52,7 @@
         margin: 0 auto;
         .banner-left{
             width: 60%;
+            max-width: 534px;
             h2{
                 font-size: 32px!important;
             }

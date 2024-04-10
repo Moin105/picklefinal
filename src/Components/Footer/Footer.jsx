@@ -16,7 +16,7 @@ function Footer() {
             </p>
           </div>
           <div className="upper-right">
-            <p>For inquiries regarding careers, partnerships, collaborations ,or investments, please email us:</p>
+            <p>For inquiries regarding careers, partnerships, collaborations, or investments, please email us:</p>
             <p><b>admin@picklearcade.com</b></p>
           </div>
         </div>
