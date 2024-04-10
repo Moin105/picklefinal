@@ -16,7 +16,7 @@ function App() {
       <Games />
       {/*<Tokenomics/>*/}
       <Midsection />
-      <SectionCollection />
+      {/*<SectionCollection />*/}
       {/* <LearnMore/>*/}
       <Footer />
     </div>

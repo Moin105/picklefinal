@@ -159,7 +159,7 @@ function Banner() {
   `;
   return (
     <div className="banner">
-      <Marquee>
+    {/*  <Marquee>
         <MarqueeGroup>
           {row1.map((el) => (
             <ImageGroup>
@@ -174,7 +174,7 @@ function Banner() {
             </ImageGroup>
           ))}
         </MarqueeGroup>
-      </Marquee>
+      </Marquee>*/}
       
       <div className="banner-container">
         <div className="banner-left">
@@ -190,7 +190,7 @@ function Banner() {
           {/* <VideoAsGif src={videoSource} /> */}
         </div>
       </div>
-      <Marquee23>
+  { /*   <Marquee23>
         <MarqueeGroup2>
           {row2.map((el) => (
             <ImageGroup>
@@ -221,7 +221,7 @@ function Banner() {
             </ImageGroup>
           ))}
         </MarqueeGroup>
-      </Marquee234>
+      </Marquee234>*/}
     </div>
   );
 }
