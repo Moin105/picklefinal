@@ -16,7 +16,7 @@ function Footer() {
             </p>
           </div>
           <div className="upper-right">
-            <p>For inquiries regarding careers, partnerships, collaborations,or investments, please email us:</p>
+            <p>For inquiries regarding careers, partnerships, collaborations ,or investments, please email us:</p>
             <p><b>admin@picklearcade.com</b></p>
           </div>
         </div>
@@ -26,7 +26,7 @@ function Footer() {
                 <a href="#">Privacy Policy</a>
           </div>
           <div className="two">
-             <p>Copyright © 2024 Pickle Media.All rights reserved. </p>
+             <p>Copyright © 2024 Pickle Media. All rights reserved. </p>
           </div>
           <div className="three">
           <ul>
