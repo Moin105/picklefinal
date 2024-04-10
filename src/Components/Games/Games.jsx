@@ -11,7 +11,7 @@ function Games() {
         <div className="games-left">
           <span>Safe & Secure</span>
           <h2>
-            Pickle Arcade delivers an adrenaline- fueled gaming experience.
+            Pickle Arcade delivers an adrenaline-fueled gaming experience.
           </h2>
           <p>
             Challenge opponents, in skill-based mini-games for crypto. The
