@@ -22,6 +22,7 @@
   margin: 0 auto;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 .tokenomics .tokenomics-container .card-item {
   justify-content: center;
@@ -41,18 +42,19 @@
 .tokenomics .tokenomics-container .card-item .items {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
 }
 .tokenomics .tokenomics-container .card-item .items .item-right {
   display: flex;
-  width: 40%;
+  width: 35%;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
 }
 .tokenomics .tokenomics-container .card-item .items .item-left {
   display: flex;
-  width: 50%;
+  width: 40%;
   align-items: center;
   justify-content: center;
   flex-direction: column;

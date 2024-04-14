@@ -38,5 +38,4 @@ function OgPass() {
     </div>
   );
 }
-
 export default OgPass;

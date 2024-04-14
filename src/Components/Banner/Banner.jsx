@@ -17,7 +17,7 @@ function Banner() {
             Jump into the premier online platform where competitive gaming meets
             cryptocurrency wagering.
           </p>
-          <h4>Arcade Stats</h4>
+          {/* <h4>Arcade Stats</h4> */}
           <div className="cards-container">
             <div className="banner-card">
               <h3>1000+</h3>
