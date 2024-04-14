@@ -1,5 +1,7 @@
 import React from "react";
 import "./Revenue.css";
+import { BsArrowRight } from "react-icons/bs";
+
 function Revenue() {
   return (
     <div className="revenue">
@@ -9,7 +11,12 @@ function Revenue() {
             Want to understand more details <br></br>
             about how revenue share works?
           </h2>
-          <p className="learn-more">Learn More</p>
+          <p className="row2">
+              Learn more{" "}
+              <span className="circle">
+                <BsArrowRight />
+              </span>
+            </p>
         </div>
         <div className="revenue-right">
           <div className="revenues">

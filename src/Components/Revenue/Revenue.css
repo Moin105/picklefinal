@@ -43,6 +43,52 @@
   margin-top: 10px;
   text-align: left;
 }
+.revenue .revenue-container .revenue-left .row2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0;
+  text-align: left;
+  /* Define the gradient for the border */
+}
+.revenue .revenue-container .revenue-left .row2 .circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 100px;
+  color: #fff; /* Text color */
+  background: black;
+  /* banner-card background color */
+  border: none;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  font-family: "Poppins";
+}
+.revenue .revenue-container .revenue-left .row2 .circle h3 {
+  font-size: 28px;
+  color: white;
+}
+.revenue .revenue-container .revenue-left .row2 .circle p {
+  margin: 0;
+}
+.revenue .revenue-container .revenue-left .row2 .circle::before {
+  content: ""; /* Required for pseudo-element */
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -2;
+  background: linear-gradient(to bottom right, #12DF00, #FFF500);
+  border-radius: 100px;
+}
 .revenue .revenue-container .revenue-left .row {
   display: flex;
   gap: 40px;

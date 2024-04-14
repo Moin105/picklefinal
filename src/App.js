@@ -27,7 +27,7 @@ function App() {
       <OgPass/>
       <Stakeholder/>
       <Revenue/>
-      <Midsection />
+      {/* <Midsection /> */}
       <LearnMore/>
       <Footer />
     </div>

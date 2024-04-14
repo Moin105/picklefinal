@@ -9,10 +9,10 @@ function Midsection() {
     <div className='pickle-trades'>
     <div className='pickle-trade-container'>
          <span>The Ultimate Memecoin</span>
-         <h2>$PICKLE Token</h2><br></br>
-         <p>Providing dilish utility to those who hodl.</p><br></br>
+         <h2>$PICKLE Token</h2>
+         <p>Providing dilish utility to those who hodl.</p>
          <img src={logo}/>
-         <span className='supply'>Token Supply : <b> 69,696,969,696</b></span><br></br>
+         <span className='supply'>Token Supply : <b> 69,696,969,696</b></span>
          <span className='supply sas'>Policy ID  : <b> 3c8cceafc16845f6ee5afe36f1521f0d1a384b55a69242eb5154cdef
 </b></span>
          <div className='trader-container'>

@@ -77,7 +77,7 @@
     }
     .trader-container{
         display: flex;
-        gap: 5px;
+        // gap: 5px;
         width: 75% !important;
         justify-content: space-between;
         .trader{
@@ -107,7 +107,7 @@
 @media only screen and (max-width: 890px) {
     .trader-container{
         display: flex;
-        gap: 20px;
+        // gap: 20px;
         width: 90% !important;
         justify-content: space-between;
       
@@ -121,7 +121,7 @@
     }
     .trader-container{
         display: flex;
-        gap: 20px;
+        // gap: 20px;
         width: 90% !important;
         flex-direction: column;
         justify-content: space-between;

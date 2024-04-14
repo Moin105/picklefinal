@@ -21,10 +21,10 @@ function Games() {
           <button className="playnow">Play Now</button>
         </div>
         <div className="games-right">
-          <img src={galaga} alt="games" />
-          <img src={jump} alt="games" />
           <img src={falppy} alt="games" />
+          <img src={jump} alt="games" />
           <img src={road} alt="games" />
+          <img src={galaga} alt="games" />
         </div>
       </div>
     </div>
