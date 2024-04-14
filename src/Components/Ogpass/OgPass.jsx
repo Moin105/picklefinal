@@ -1,6 +1,7 @@
 import React from "react";
 import ogpass from "../../Assets/ogpass.gif";
 import './ogpass.css'
+import docs from '../../Assets/docs.png'
 import { BsArrowRight } from "react-icons/bs";
 
 function OgPass() {
@@ -25,10 +26,10 @@ function OgPass() {
                 <BsArrowRight />
               </span>
             </p>
-            {/* <button className="row2">
+            <button className="row2">
               {" "}
-              Buy Now <span className="document"></span>
-            </button> */}
+              Buy Now <img src={docs}/>
+            </button>
           </p>
         </div>
         <div className="ogpass-right">

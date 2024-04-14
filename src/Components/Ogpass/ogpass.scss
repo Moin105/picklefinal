@@ -46,6 +46,27 @@
                 gap: 40px;
                 align-items: center;
                 text-align: left;
+                button{
+                    padding: 2px 20px;
+                    border: none;
+                    background: #FFDB24;
+                    color: black;
+                    font-size: 16px;
+                    font-family: 'Poppins';
+                    cursor: pointer;
+                    gap: 5px !important;
+                    border: none;
+                    border-radius: 8px;
+                    img{
+                        width: 30px;
+                        object-fit: contain;
+                    }
+                    transition: all 0.3s ease;
+                    &:hover{
+                        // background: ;
+                        color: black;
+                    }
+                }
                 
             }
             .row2 {

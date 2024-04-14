@@ -49,6 +49,27 @@
   align-items: center;
   text-align: left;
 }
+.ogpass .ogpass-container .ogpass-left .row button {
+  padding: 2px 20px;
+  border: none;
+  background: #FFDB24;
+  color: black;
+  font-size: 16px;
+  font-family: "Poppins";
+  cursor: pointer;
+  gap: 5px !important;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.ogpass .ogpass-container .ogpass-left .row button img {
+  width: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.ogpass .ogpass-container .ogpass-left .row button:hover {
+  color: black;
+}
 .ogpass .ogpass-container .ogpass-left .row2 {
   display: flex;
   gap: 10px;
