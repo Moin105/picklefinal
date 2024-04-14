@@ -190,9 +190,13 @@
   }
   .banner-container .banner-left h2 {
     font-size: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .banner-container .banner-left p {
     font-size: 12px !important;
+    width: 100% !important;
     margin-top: 20px;
   }
 }

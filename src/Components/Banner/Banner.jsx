@@ -12,7 +12,7 @@ function Banner() {
       <div className="banner-container">
         <div className="banner-left">
           <h2>Welcome to the new era of online arcades</h2>
-          <br></br>
+      
           <p>
             Jump into the premier online platform where competitive gaming meets
             cryptocurrency wagering.
