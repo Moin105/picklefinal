@@ -62,15 +62,20 @@
        .revenue-right{
         width: 90%;
         margin: 0 auto;
+        flex-direction: column;
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
         margin-top: 40px;
         justify-content: flex-start;
-        .revenue-card,.revenue-card2,.revenue-card3,.revenue-card4 {
+
+   .revenues{    
+    display: flex;
+    justify-content: space-between;
+    .revenue-card,.revenue-card2,.revenue-card3,.revenue-card4 {
             display: inline-block;
             width: 31%;
-            height: 200px;
+            height: 130px;
             padding: 20px 15px;
             display: flex;
             justify-content: center;
@@ -129,6 +134,38 @@
             z-index: -2;
             background: linear-gradient(to bottom right, #5de0e6, #004aad);
             border-radius: 8px;
+          }}
+          .revenuess{     
+            display: flex;
+            gap: 3.7%;
+            justify-content: flex-start;
+            .revenue-card,.revenue-card2,.revenue-card3,.revenue-card4 {
+            display: inline-block;
+            width: 31%;
+            height: 130px;
+            padding: 20px 15px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            font-size: 16px;
+            border-radius: 8px;
+            color: #fff; /* Text color */
+            background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(50,52,52,1) 100%);
+/* banner-card background color */
+            border: none;
+            cursor: pointer;
+            position: relative;
+            font-family: 'Poppins';
+            h3{
+                font-size: 28px;
+                color: white;
+   
+                
+            }
+            p{
+                margin: 0;
+            }
           }
           .revenue-card4::before {
             content: ''; /* Required for pseudo-element */
@@ -140,10 +177,138 @@
             z-index: -2;
             background: linear-gradient(to bottom right, #fff7ad, #ffa9f9);
             border-radius: 8px;
-          }
+          }}
           .revenue-card:hover::before {
             background: linear-gradient(to bottom right, #FFF500, #12DF00 );
           }
        }
     }
+}
+
+@media only screen and (max-width: 506px) {
+    .revenue-right{
+        width: 90%;
+        margin: 0 auto;
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 40px;
+        justify-content: flex-start;
+
+   .revenues{    
+    display: flex;
+    justify-content: space-between;
+    .revenue-card,.revenue-card2,.revenue-card3,.revenue-card4 {
+            display: inline-block;
+            width: 31%;
+            height: 100px !important;
+            padding: 20px 15px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            font-size: 16px;
+            border-radius: 8px;
+            color: #fff; /* Text color */
+            background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(50,52,52,1) 100%);
+/* banner-card background color */
+            border: none;
+            cursor: pointer;
+            position: relative;
+            font-family: 'Poppins';
+            h3{
+                font-size: 20px !important;
+                color: white;
+   
+                
+            }
+            p{
+                margin: 0;
+                text-align: center !important;
+            }
+          }
+          
+          /* Define the gradient for the border */
+          .revenue-card::before {
+            content: ''; /* Required for pseudo-element */
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;   
+            z-index: -2;
+            background: linear-gradient(to bottom right, #12DF00 , #FFF500);
+            border-radius: 8px;
+          }
+          .revenue-card2::before {
+            content: ''; /* Required for pseudo-element */
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;   
+            z-index: -2;
+            background: linear-gradient(to bottom right, #ff3131, #ff914d);
+            border-radius: 8px;
+          }
+          .revenue-card3::before {
+            content: ''; /* Required for pseudo-element */
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;   
+            z-index: -2;
+            background: linear-gradient(to bottom right, #5de0e6, #004aad);
+            border-radius: 8px;
+          }}
+          .revenuess{     
+            display: flex;
+            gap: 3.7%;
+            justify-content: flex-start;
+            .revenue-card,.revenue-card2,.revenue-card3,.revenue-card4 {
+            display: inline-block;
+            width: 31%;
+            height: 100px !important;
+            padding: 20px 15px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            font-size: 16px;
+            border-radius: 8px;
+            color: #fff; /* Text color */
+            background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(50,52,52,1) 100%);
+/* banner-card background color */
+            border: none;
+            cursor: pointer;
+            position: relative;
+            font-family: 'Poppins';
+            h3{
+                font-size: 20px !important;
+                color: white;
+   
+                
+            }
+            p{
+                margin: 0;
+                text-align: center !important;
+            }
+          }
+          .revenue-card4::before {
+            content: ''; /* Required for pseudo-element */
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;   
+            z-index: -2;
+            background: linear-gradient(to bottom right, #fff7ad, #ffa9f9);
+            border-radius: 8px;
+          }}
+          .revenue-card:hover::before {
+            background: linear-gradient(to bottom right, #FFF500, #12DF00 );
+          }
+       }
 }

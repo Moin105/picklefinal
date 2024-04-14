@@ -66,7 +66,7 @@
   right: -2px;
   bottom: -2px;
   z-index: -2;
-  background: linear-gradient(to bottom right, #12DF00, #FFF500);
+  background: linear-gradient(to bottom right, #12df00, #fff500);
   border-radius: 8px;
 }
 .stakeholder .stakeholder-container .stakeholder-card {
@@ -102,7 +102,7 @@
   right: -2px;
   bottom: -2px;
   z-index: -2;
-  background: linear-gradient(to bottom right, #12DF00, #FFF500);
+  background: linear-gradient(to bottom right, #12df00, #fff500);
   border-radius: 8px;
 }
 .stakeholder .stakeholder-container .cards-container {
@@ -161,7 +161,7 @@
   right: -2px;
   bottom: -2px;
   z-index: -2;
-  background: linear-gradient(to bottom right, #12DF00, #FFF500);
+  background: linear-gradient(to bottom right, #12df00, #fff500);
   border-radius: 8px;
 }
 .stakeholder .stakeholder-container .cards-container .stakes-card h3 {
@@ -169,71 +169,179 @@
   color: white;
 }
 
-@media only screen and (max-width: 1550px) {
+@media only screen and (max-width: 980px) {
   .stakeholder-container {
+    display: flex;
+    width: 90%;
     margin: 0 auto;
+    justify-content: center;
+    padding: 0px 0px 150px 0px;
+    flex-direction: column;
+    align-items: center;
+    /* Define the gradient for the border */
+    /* Define the gradient for the border */
   }
-  .stakeholder-container .stakeholder-left {
-    width: 60%;
+  .stakeholder-container p {
+    margin: 10px !important;
   }
-  .stakeholder-container .stakeholder-left h2 {
-    font-size: 32px !important;
+  .stakeholder-container h2 {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Poppins";
+    min-width: 70%;
+    color: white;
+    width: -webkit-fill-available;
+    text-align: center;
   }
-  .stakeholder-container .stakeholder-left p {
-    font-size: 18px !important;
-    margin-top: 20px;
+  .stakeholder-container span {
+    font-size: 16px;
+    color: green;
+    margin: 20px 0px 5px 0px !important;
   }
-}
-@media only screen and (max-width: 1250px) {
-  .stakeholder-container {
-    margin: 0 auto;
+  .stakeholder-container p {
+    color: white;
   }
-  .stakeholder-container .stakeholder-left {
-    width: 60%;
+  .stakeholder-container .p-grad {
+    display: inline-block;
+    text-align: center !important;
+    padding: 10px 15px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #fff; /* Text color */
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 0%, rgb(50, 52, 52) 100%);
+    /* banner-card background color */
+    border: none;
+    cursor: pointer;
+    position: relative;
+    font-family: "Poppins";
   }
-  .stakeholder-container .stakeholder-left h2 {
-    font-size: 28px !important;
+  .stakeholder-container .p-grad h3 {
+    font-size: 28px;
+    color: white;
   }
-  .stakeholder-container .stakeholder-left p {
-    font-size: 15px !important;
-    margin-top: 20px;
+  .stakeholder-container .p-grad p {
+    margin: 0 !important;
   }
-}
-@media only screen and (max-width: 1186px) {
-  .stakeholder-container {
-    margin: 0 auto;
+  .stakeholder-container .p-grad::before {
+    content: ""; /* Required for pseudo-element */
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -2;
+    background: linear-gradient(to bottom right, #12df00, #fff500);
+    border-radius: 8px;
   }
-  .stakeholder-container .stakeholder-left {
-    width: 60%;
+  .stakeholder-container .stakeholder-card {
+    display: inline-block;
+    padding: 15px 35px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #fff; /* Text color */
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 0%, rgb(50, 52, 52) 100%);
+    /* banner-card background color */
+    border: none;
+    cursor: pointer;
+    position: relative;
+    font-family: "Poppins";
+    margin: 20px 0px !important;
   }
-  .stakeholder-container .stakeholder-left h2 {
-    font-size: 24px !important;
+  .stakeholder-container .stakeholder-card h3 {
+    font-size: 44px !important;
+    color: white;
   }
-  .stakeholder-container .stakeholder-left p {
-    font-size: 13px !important;
-    margin-top: 20px;
+  .stakeholder-container .stakeholder-card p {
+    margin: 0;
   }
-}
-@media only screen and (max-width: 930px) {
-  .stakeholder-container {
-    margin: 0 auto;
+  .stakeholder-container .stakeholder-card::before {
+    content: ""; /* Required for pseudo-element */
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -2;
+    background: linear-gradient(to bottom right, #12df00, #fff500);
+    border-radius: 8px;
   }
-  .stakeholder-container .stakeholder-left {
-    width: 60%;
+  .stakeholder-container .cards-container {
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
   }
-  .stakeholder-container .stakeholder-left h2 {
-    font-size: 20px !important;
+  .stakeholder-container .cards-container .stakes-card {
+    display: flex;
+    flex-direction: column;
+    width: 160px !important;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    /* Define the gradient for the border */
   }
-  .stakeholder-container .stakeholder-left p {
-    font-size: 12px !important;
-    margin-top: 20px;
+  .stakeholder-container .cards-container .stakes-card .stake-top {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 8px;
+    color: #fff; /* Text color */
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 0%, rgb(50, 52, 52) 100%);
+    /* banner-card background color */
+    border: none;
+    cursor: pointer;
+    position: relative;
+    font-family: "Poppins";
+  }
+  .stakeholder-container .cards-container .stakes-card .stake-top img {
+    width: 100px;
+    height: 100px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    border-radius: 8px;
+  }
+  .stakeholder-container .cards-container .stakes-card .stake-top h3 {
+    font-size: 28px;
+    color: white;
+  }
+  .stakeholder-container .cards-container .stakes-card .stake-top p {
+    margin: 0;
+  }
+  .stakeholder-container .cards-container .stakes-card .stake-top::before {
+    content: ""; /* Required for pseudo-element */
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -2;
+    background: linear-gradient(to bottom right, #12df00, #fff500);
+    border-radius: 8px;
+  }
+  .stakeholder-container .cards-container .stakes-card h3 {
+    font-size: 18px;
+    color: white;
   }
 }
 @media only screen and (max-width: 786px) {
   .stakeholder-container {
     margin: 0 auto;
     flex-direction: column;
-    gap: 40px;
   }
   .stakeholder-container .stakeholder-left {
     width: 80% !important;

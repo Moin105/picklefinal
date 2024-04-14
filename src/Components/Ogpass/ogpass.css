@@ -12,12 +12,13 @@
   margin: 0 auto;
   justify-content: space-between;
   padding: 0px 0px 150px 0px;
-  align-items: center;
+  align-items: flex-start;
 }
 .ogpass .ogpass-container .ogpass-left {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-top: 60px;
   align-items: flex-start;
   width: 40%;
 }
@@ -168,7 +169,7 @@
     width: 100% !important;
   }
   .ogpass-container .ogpass-right {
-    width: 60%;
+    width: 100% !important;
     display: flex;
     justify-content: center;
   }
