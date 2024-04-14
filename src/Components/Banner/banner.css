@@ -76,11 +76,11 @@
   right: -2px;
   bottom: -2px;
   z-index: -2;
-  background: linear-gradient(to bottom right, #78ab46, #f7df63);
+  background: linear-gradient(to bottom right, #12DF00, #FFF500);
   border-radius: 8px;
 }
 .banner .banner-container .banner-left .cards-container .banner-card:hover::before {
-  background: linear-gradient(to bottom right, #f7df63, #78ab46);
+  background: linear-gradient(to bottom right, #FFF500, #12DF00);
 }
 .banner .banner-container .banner-left h4 {
   font-size: 20px;
@@ -182,11 +182,11 @@
     right: -2px;
     bottom: -2px;
     z-index: -2;
-    background: linear-gradient(to bottom right, #78ab46, #f7df63);
+    background: linear-gradient(to bottom right, #12DF00, #FFF500);
     border-radius: 8px;
   }
   .banner-container .banner-left .cards-container .banner-card:hover::before {
-    background: linear-gradient(to bottom right, #f7df63, #78ab46);
+    background: linear-gradient(to bottom right, #FFF500, #12DF00);
   }
   .banner-container .banner-left h2 {
     font-size: 20px !important;

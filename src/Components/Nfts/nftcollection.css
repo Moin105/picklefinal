@@ -39,6 +39,8 @@
 .nft-collection .nft-collection-container .nft-collection-top p {
   font-size: 18px;
   color: white;
+  max-width: 540px;
+  width: 40%;
   font-family: "Poppins";
   margin-top: 10px;
   text-align: left;
@@ -54,6 +56,45 @@
   gap: 10px;
   align-items: center;
   text-align: left;
+  /* Define the gradient for the border */
+}
+.nft-collection .nft-collection-container .nft-collection-top .row2 .circle {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0px 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 100px;
+  color: #fff; /* Text color */
+  background: black;
+  /* banner-card background color */
+  border: none;
+  cursor: pointer;
+  color: white;
+  position: relative;
+  font-family: "Poppins";
+}
+.nft-collection .nft-collection-container .nft-collection-top .row2 .circle h3 {
+  font-size: 28px;
+  color: white;
+}
+.nft-collection .nft-collection-container .nft-collection-top .row2 .circle p {
+  margin: 0;
+}
+.nft-collection .nft-collection-container .nft-collection-top .row2 .circle::before {
+  content: ""; /* Required for pseudo-element */
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -2;
+  background: linear-gradient(to bottom right, #12DF00, #FFF500);
+  border-radius: 100px;
 }
 .nft-collection .nft-collection-container .nft-collection-top h4 {
   font-size: 20px;
@@ -62,4 +103,94 @@
 }
 .nft-collection .nft-collection-container .nft-collection-bottom {
   width: 100%;
+}
+
+@media only screen and (max-width: 1186px) {
+  .nft-collection-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+  }
+  .nft-collection-top span {
+    font-size: 16px;
+    color: green;
+    margin: 20px 0px 20px 0px;
+  }
+  .nft-collection-top h2 {
+    font-size: 42px;
+    font-weight: 700;
+    font-family: "Poppins";
+    min-width: 70%;
+    color: white;
+    width: -webkit-fill-available;
+    text-align: left;
+  }
+  .nft-collection-top p {
+    font-size: 18px;
+    color: white;
+    max-width: 100% !important;
+    width: 100% !important;
+    font-family: "Poppins";
+    margin-top: 10px;
+    text-align: left;
+  }
+  .nft-collection-top .row {
+    display: flex;
+    gap: 0px !important;
+    max-width: 400px !important;
+    align-items: center;
+    text-align: left;
+  }
+  .nft-collection-top .row2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-align: left;
+    /* Define the gradient for the border */
+  }
+  .nft-collection-top .row2 .circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    padding: 0px 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 100px;
+    color: #fff; /* Text color */
+    background: black;
+    /* banner-card background color */
+    border: none;
+    cursor: pointer;
+    color: white;
+    position: relative;
+    font-family: "Poppins";
+  }
+  .nft-collection-top .row2 .circle h3 {
+    font-size: 28px;
+    color: white;
+  }
+  .nft-collection-top .row2 .circle p {
+    margin: 0;
+  }
+  .nft-collection-top .row2 .circle::before {
+    content: ""; /* Required for pseudo-element */
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    z-index: -2;
+    background: linear-gradient(to bottom right, #12DF00, #FFF500);
+    border-radius: 100px;
+  }
+  .nft-collection-top h4 {
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+  }
 }/*# sourceMappingURL=nftcollection.css.map */

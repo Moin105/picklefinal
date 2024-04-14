@@ -1,7 +1,7 @@
 import React from 'react'
 import './utility.css'
 import discount from '../../Assets/discount.png'
-import governance from '../../Assets/governance.png'
+import governance from '../../Assets/governancepng.png'
 import staking from '../../Assets/staking.png' 
 import fire from '../../Assets/fire.gif'
 function Utility() {

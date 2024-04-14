@@ -1,66 +1,202 @@
-.nft-collection{
+.nft-collection {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  .nft-collection-container {
     display: flex;
-    margin-top: 100px;
-    justify-content: center;
-    align-items: center;
-    max-width: 1920px;
+    width: 90%;
     margin: 0 auto;
-    .nft-collection-container{
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px 0px;
+    align-items: center;
+    .nft-collection-top {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+      span {
+        font-size: 16px;
+        color: green;
+        margin: 20px 0px 20px 0px;
+      }
+      h2 {
+        font-size: 42px;
+        font-weight: 700;
+        font-family: "Poppins";
+        min-width: 70%;
+        color: white;
+        width: -webkit-fill-available;
+        text-align: left;
+      }
+      p {
+        font-size: 18px;
+        color: white;
+        max-width: 540px;
+        width: 40%;
+        font-family: "Poppins";
+        margin-top: 10px;
+        text-align: left;
+      }
+      .row {
         display: flex;
-        width: 90%;
-        margin: 0 auto;
-        flex-direction: column;
-        justify-content: center;
-        padding: 150px 0px;
+        gap: 40px;
         align-items: center;
-        .nft-collection-top{
+        text-align: left;
+      }
+      .row2 {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        text-align: left;
+        .circle {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            padding: 0px 5px;
             display: flex;
+            justify-content: center;
             flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            width: 100%;
-            span{
-                font-size: 16px;
-                color: green;
-                margin: 20px 0px 20px 0px;
-            }
-            h2{
-                font-size: 42px;
-                font-weight: 700;
-                font-family: 'Poppins';
-                min-width: 70%;
+            align-items: center;
+            font-size: 16px;
+            border-radius: 100px;
+            color: #fff; /* Text color */
+            background: black;
+/* banner-card background color */
+            border: none;
+            cursor: pointer;
+            color: white;
+            position: relative;
+            font-family: 'Poppins';
+            h3{
+                font-size: 28px;
                 color: white;
-                width: -webkit-fill-available;
-                text-align: left;
+   
+                
             }
             p{
-                font-size: 18px;
-                color: white;
-
-                font-family: 'Poppins';
-                margin-top: 10px;
-                text-align: left;
+                margin: 0;
             }
-            .row{
-                display: flex;
-                gap: 40px;
-                align-items: center;
-                text-align: left;
-            }
-            .row2{
-                display: flex;
-                gap: 10px;
-                align-items: center;
-                text-align: left;
-            }
-            h4{
-                font-size: 20px;
-                color: white;
-                margin-top: 30px;
-            }
-        }
-      .nft-collection-bottom{
-        width: 100%;
+          }
+          
+          /* Define the gradient for the border */
+          .circle::before {
+            content: ''; /* Required for pseudo-element */
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;   
+            z-index: -2;
+            background: linear-gradient(to bottom right, #12DF00 , #FFF500);
+            border-radius: 100px;
+          }
+      }
+      h4 {
+        font-size: 20px;
+        color: white;
+        margin-top: 30px;
       }
     }
+    .nft-collection-bottom {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 1186px) {
+    .nft-collection-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 100%;
+        span {
+          font-size: 16px;
+          color: green;
+          margin: 20px 0px 20px 0px;
+        }
+        h2 {
+          font-size: 42px;
+          font-weight: 700;
+          font-family: "Poppins";
+          min-width: 70%;
+          color: white;
+          width: -webkit-fill-available;
+          text-align: left;
+        }
+        p {
+          font-size: 18px;
+          color: white;
+          max-width: 100% !important;
+          width:  100% !important;
+          font-family: "Poppins";
+          margin-top: 10px;
+          text-align: left;
+        }
+        .row {
+          display: flex;
+          gap: 0px !important;
+          max-width: 400px !important;
+          align-items: center;
+          text-align: left;
+        }
+        .row2 {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+          text-align: left;
+          .circle {
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              padding: 0px 5px;
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              align-items: center;
+              font-size: 16px;
+              border-radius: 100px;
+              color: #fff; /* Text color */
+              background: black;
+  /* banner-card background color */
+              border: none;
+              cursor: pointer;
+              color: white;
+              position: relative;
+              font-family: 'Poppins';
+              h3{
+                  font-size: 28px;
+                  color: white;
+     
+                  
+              }
+              p{
+                  margin: 0;
+              }
+            }
+            
+            /* Define the gradient for the border */
+            .circle::before {
+              content: ''; /* Required for pseudo-element */
+              position: absolute;
+              top: -2px;
+              left: -2px;
+              right: -2px;
+              bottom: -2px;   
+              z-index: -2;
+              background: linear-gradient(to bottom right, #12DF00 , #FFF500);
+              border-radius: 100px;
+            }
+        }
+        h4 {
+          font-size: 20px;
+          color: white;
+          margin-top: 30px;
+        }
+      }
+
 }

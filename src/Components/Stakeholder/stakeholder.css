@@ -66,7 +66,7 @@
   right: -2px;
   bottom: -2px;
   z-index: -2;
-  background: linear-gradient(to bottom right, #78ab46, #f7df63);
+  background: linear-gradient(to bottom right, #12DF00, #FFF500);
   border-radius: 8px;
 }
 .stakeholder .stakeholder-container .stakeholder-card {
@@ -102,7 +102,7 @@
   right: -2px;
   bottom: -2px;
   z-index: -2;
-  background: linear-gradient(to bottom right, #78ab46, #f7df63);
+  background: linear-gradient(to bottom right, #12DF00, #FFF500);
   border-radius: 8px;
 }
 .stakeholder .stakeholder-container .cards-container {
@@ -161,7 +161,7 @@
   right: -2px;
   bottom: -2px;
   z-index: -2;
-  background: linear-gradient(to bottom right, #78ab46, #f7df63);
+  background: linear-gradient(to bottom right, #12DF00, #FFF500);
   border-radius: 8px;
 }
 .stakeholder .stakeholder-container .cards-container .stakes-card h3 {

@@ -10,35 +10,41 @@ import pick from "../../Assets/pick.png";
 import pickle6 from "../../Assets/pickle6.png";
 import pickle7 from "../../Assets/pickle7.jpeg";
 import styled, { keyframes, css } from "styled-components";
-import { ImageRenderer } from "./ImageRendere";
 import pickle8 from "../../Assets/pickle8.png";
 import pickle9 from "../../Assets/pickle9.png";
+import { IoSearchOutline } from "react-icons/io5";
+import { BsArrowRight } from "react-icons/bs";
+
 import pickle10 from "../../Assets/pickle10.jpeg";
 import pickle11 from "../../Assets/00132.png";
 import pickle12 from "../../Assets/00209.png";
 import pickle13 from "../../Assets/00405.png";
 import pickle14 from "../../Assets/02342.png";
 import pickle15 from "../../Assets/01152.png";
-import pickle16 from "../../Assets/01354.png";
-// import pickle17 from "../../Assets/00138.png";
-// import pickle18 from "../../Assets/00139.png";
-// import pickle19 from "../../Assets/00140.png";
-// import pickle20 from "../../Assets/00141.png";
-// import pickle21 from "../../Assets/00142.png";
-// import pickle22 from "../../Assets/00143.png";
-// import pickle23 from "../../Assets/00144.png";
-// import pickle24 from "../../Assets/00145.png";
-// import pickle25 from "../../Assets/00146.png";
-// import pickle26 from "../../Assets/00147.png";
-// import pickle27 from "../../Assets/00148.png";
-
+import pickle16 from "../../Assets/01415.png";
+import pickle17 from "../../Assets/01651.png";
+import pickle18 from "../../Assets/02031.png";
+import pickle19 from "../../Assets/01723.png";
+import pickle20 from "../../Assets/02168.png";
+import pickle21 from "../../Assets/02214.png";
+import pickle22 from "../../Assets/02168.png";
+import pickle23 from "../../Assets/01926.png";
+import pickle24 from "../../Assets/01986.png";
+import pickle25 from "../../Assets/02041.png";
+import pickle26 from "../../Assets/02452.png";
+import pickle27 from "../../Assets/00685.png";
+import pickle28 from "../../Assets/02342.png";
+import pickle29 from "../../Assets/01152.png";
+import pickle30 from "../../Assets/01415.png";
+import pickle31 from "../../Assets/01391.png";
+import pickle32 from "../../Assets/02031.png";
 function Nftscollection() {
   const row1 = [
   {img:  pickle1,
    img2: pickle2},
   {  img:pickle3,
     img2: pickle4},
-    {img:pickle4,
+    {img:pickle31,
       img2:pickle5},
    { img:pickle6,
     img2:pickle7},
@@ -49,23 +55,19 @@ function Nftscollection() {
    {img: pickle15,img2:pickle14},
   ];
   const row2 = [
-    pickle1,
-    pickle2,
-    pickle3,
-    pickle4,
-    // pickle5,
-    // pickle6,
-    // pickle7,
-    // pickle1,
-    // pickle2,
-    // pickle3,
-    pickle4,
-    pickle5,
-    pickle6,
-    pickle7,
-    pickle8,
-    pickle9,
-    pickle10,
+    {img:  pickle16,
+      img2: pickle17},
+     {  img:pickle18,
+       img2: pickle19},
+       {img:pickle20,
+         img2:pickle21},
+      { img:pickle22,
+       img2:pickle23},
+       {img2:pickle24,
+         img: pickle25},
+      {img: pickle26,img2:pickle27},
+      {img: pickle28,img2:pickle29},
+      {img: pickle32,img2:pickle30},
   ];
   const Marquee = styled.div`
     display: flex;
@@ -148,16 +150,15 @@ function Nftscollection() {
   `;
 
   const ImageGroup = styled.div`
-    display: grid;
-
-    place-items: center;
+    display:flex;
+    flex-direction:column;
     width: 15%;
     ${"" /* width: clamp(10rem, 1rem + 40vmin, 30rem); */}
     ${"" /* padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10); */}
   `;
   const ImageGroup2 = styled.div`
-  display: grid;
-  place-items: center;
+  display:flex;
+    flex-direction:column;
   margin: 70px 0px 0px 0px;
   width: 15%;
   ${"" /* width: clamp(10rem, 1rem + 40vmin, 30rem); */}
@@ -181,25 +182,26 @@ function Nftscollection() {
           <span>PickleButts</span>
           <h2>A deflationary NFT collection</h2>
           <p>
-            6,900 memeable PickleButt NFTs were minted on the Cardano blockchain <br></br>
-            and sold out within an hour on February 3rd, 2024. Each NFT was <br></br>
-            minted for 1M $PICKLE, with 500k $PICKLE burnt to $burnsnek and the <br></br>
-            remaining 500k attached to each NFT. The vision for the PickleButts <br></br>
-            NFT collection is for it to appreciate in value and decrease in <br></br>
-            supply over time as various sources of passive income accumulate. <br></br>
-            The initial income source was tying $PICKLE to each NFT. Additional <br></br>
-            income sources include secondary market royalties and Pickle Arcade <br></br>
-            revenue share. To access the income linked to an NFT, it must be <br></br>
+            6,900 memeable PickleButt NFTs were minted on the Cardano blockchain 
+            and sold out within an hour on February 3rd, 2024. Each NFT was 
+            minted for 1M $PICKLE, with 500k $PICKLE burnt to $burnsnek and the 
+            remaining 500k attached to each NFT. The vision for the PickleButts 
+            NFT collection is for it to appreciate in value and decrease in 
+            supply over time as various sources of passive income accumulate. 
+            The initial income source was tying $PICKLE to each NFT. Additional 
+            income sources include secondary market royalties and Pickle Arcade 
+            revenue share. To access the income linked to an NFT, it must be 
             burned via Picklehub.
           </p>
           <p className="row">
             {" "}
             <p className="row2">
-              Learn more <span className="circle"></span>
+              Learn more <span className="circle"><BsArrowRight /></span>
             </p>
             <p className="row2">
               {" "}
-              Explore on Picklehub <span className="circle"></span>
+              Explore on Picklehub <span className="circle"><IoSearchOutline />
+</span>
             </p>
           </p>
         </div>
@@ -221,7 +223,7 @@ function Nftscollection() {
           ))}
         </MarqueeGroup>
         <MarqueeGroup>
-          {row1.map((el,index) => (
+          {row2.map((el,index) => (
             (index + 1) % 2 === 0 ?(
             <ImageGroup>
             <Image src={el.img} />
