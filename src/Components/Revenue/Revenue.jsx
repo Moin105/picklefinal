@@ -63,7 +63,7 @@ function Revenue() {
           </div>
           <div className="revenuess">
             <div className="revenue-card4">
-              <h3>63.55B</h3>
+              <h3>66.25B</h3>
               <p>Remaining Tokens</p>
             </div>{" "}
             <div className="revenue-card4">
