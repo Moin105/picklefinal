@@ -1,6 +1,8 @@
 import React from "react";
 import ogpass from "../../Assets/ogpass.gif";
 import './ogpass.css'
+import { BsArrowRight } from "react-icons/bs";
+
 function OgPass() {
   return (
     <div className="ogpass">
@@ -15,11 +17,13 @@ function OgPass() {
             minting, and free NFT airdrops. Each pass also entitles hodlers to
             revenue share from the Pickle Arcade.
           </p>
-          Learn more
           <p className="row">
             {" "}
             <p className="row2">
-              Learn more <span className="circle"></span>
+              Learn more{" "}
+              <span className="circle">
+                <BsArrowRight />
+              </span>
             </p>
             {/* <button className="row2">
               {" "}

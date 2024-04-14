@@ -9,7 +9,7 @@
         display: flex;
         width: 90%;
         margin: 0 auto;
-        justify-content: center;
+        justify-content: space-between;
         padding:0px 0px 150px 0px ;
         align-items: center;
         .ogpass-left{
@@ -45,13 +45,57 @@
                 gap: 40px;
                 align-items: center;
                 text-align: left;
+                
             }
-            .row2{
+            .row2 {
                 display: flex;
                 gap: 10px;
                 align-items: center;
+                margin: 0;
                 text-align: left;
-            }
+                .circle {
+                    display: inline-block;
+                    width: 30px;
+                    height: 30px;
+                    padding: 0px 5px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 16px;
+                    border-radius: 100px;
+                    color: #fff; /* Text color */
+                    background: black;
+        /* banner-card background color */
+                    border: none;
+                    cursor: pointer;
+                    color: white;
+                    position: relative;
+                    font-family: 'Poppins';
+                    h3{
+                        font-size: 28px;
+                        color: white;
+           
+                        
+                    }
+                    p{
+                        margin: 0;
+                    }
+                  }
+                  
+                  /* Define the gradient for the border */
+                  .circle::before {
+                    content: ''; /* Required for pseudo-element */
+                    position: absolute;
+                    top: -2px;
+                    left: -2px;
+                    right: -2px;
+                    bottom: -2px;   
+                    z-index: -2;
+                    background: linear-gradient(to bottom right, #12DF00 , #FFF500);
+                    border-radius: 100px;
+                  }
+              }
             h4{
                 font-size: 20px;
                 color: white;
@@ -60,12 +104,82 @@
         }
         .ogpass-right{
 width: 60%;
+display: flex;
+justify-content: center;
 img{
-    width: 100%;
+    width: 70%;
     height: 70%;
+    margin: 0 auto;
     object-fit: contain;
 }
         }
       
     }
+}
+
+@media only screen and (max-width: 1206px) {
+    .ogpass-right{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 50% !important;
+            height: 70%;
+            margin: 0 auto;
+            object-fit: contain;
+        }
+                }
+}
+@media only screen and (max-width: 996px) {
+    .ogpass-right{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 60% !important;
+            height: 70%;
+            margin: 0 auto;
+            object-fit: contain;
+        }
+                }
+}
+@media only screen and (max-width: 856px) {
+    .ogpass-container{
+        flex-direction: column;
+        .ogpass-left{
+            width: 100% !important;
+        }
+    .ogpass-right{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 70% !important;
+            height: 70%;
+            margin: 0 auto;
+            object-fit: contain;
+        }
+                }
+            
+            }
+}
+@media only screen and (max-width: 556px) {
+    .ogpass-container{
+        flex-direction: column;
+        .ogpass-left{
+            width: 100% !important;
+        }
+    .ogpass-right{
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 100% !important;
+            height: 70%;
+            margin: 0 auto;
+            object-fit: contain;
+        }
+                }
+            
+            }
 }

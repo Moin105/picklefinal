@@ -47,6 +47,7 @@ function Nftscollection() {
     { img: pickle10, img2: pickle11 },
     { img: pickle12, img2: pickle13 },
     { img: pickle15, img2: pickle14 },
+    
   ];
   const row2 = [
     { img: pickle16, img2: pickle17 },
@@ -73,6 +74,15 @@ function Nftscollection() {
       hsl(0 0% 0% / 1) 90%,
       hsl(0 0% 0% / 0)
     );
+    @media only screen and (max-width: 500px) {
+      gap: 20px;
+    }
+    @media only screen and (max-width: 450px) {
+      gap: 50px;
+    }
+    @media only screen and (max-width: 390px) {
+      gap: 90px;
+    }
   `;
   const Marquee23 = styled.div`
     display: flex;

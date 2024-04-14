@@ -38,7 +38,6 @@
   width: 445px;
   padding: 20px 20px;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   font-size: 16px;
   border-radius: 8px;
@@ -97,7 +96,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  gap: 15px;
+  gap: 5px;
   /* Define the gradient for the border */
 }
 .utility .utility-container .fire-text span {
@@ -106,7 +105,7 @@
 }
 .utility .utility-container .fire-text h2 {
   color: white;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .utility .utility-container .fire-text p {
   color: white;
@@ -173,7 +172,6 @@
     height: 210px;
     padding: 20px 20px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     font-size: 16px;
     border-radius: 8px;
@@ -234,7 +232,6 @@
     height: 200px;
     padding: 20px 20px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     font-size: 16px;
     border-radius: 8px;
