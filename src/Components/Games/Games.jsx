@@ -1,7 +1,7 @@
 import React from "react";
 import "./game.css";
 import falppy from "../../Assets/flappyBtn.png";
-import galaga from "../../Assets/galagaBtn.jpg";
+import galaga from "../../Assets/galaga.png";
 import jump from "../../Assets/jumpBtn.jpg";
 import road from "../../Assets/roadBtn.png";
 function Games() {
