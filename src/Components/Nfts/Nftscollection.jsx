@@ -1,6 +1,5 @@
-
 import React from "react";
-import './nftcollection.css'
+import "./nftcollection.css";
 import pickle1 from "../../Assets/pickle1.png";
 import pickle2 from "../../Assets/pickle2.png";
 import pickle3 from "../../Assets/pickle3.png";
@@ -40,40 +39,30 @@ import pickle31 from "../../Assets/01391.png";
 import pickle32 from "../../Assets/02031.png";
 function Nftscollection() {
   const row1 = [
-  {img:  pickle1,
-   img2: pickle2},
-  {  img:pickle3,
-    img2: pickle4},
-    {img:pickle31,
-      img2:pickle5},
-   { img:pickle6,
-    img2:pickle7},
-    {img2:pickle8,
-      img: pickle9},
-   {img: pickle10,img2:pickle11},
-   {img: pickle12,img2:pickle13},
-   {img: pickle15,img2:pickle14},
+    { img: pickle1, img2: pickle2 },
+    { img: pickle3, img2: pickle4 },
+    { img: pickle31, img2: pickle5 },
+    { img: pickle6, img2: pickle7 },
+    { img2: pickle8, img: pickle9 },
+    { img: pickle10, img2: pickle11 },
+    { img: pickle12, img2: pickle13 },
+    { img: pickle15, img2: pickle14 },
   ];
   const row2 = [
-    {img:  pickle16,
-      img2: pickle17},
-     {  img:pickle18,
-       img2: pickle19},
-       {img:pickle20,
-         img2:pickle21},
-      { img:pickle22,
-       img2:pickle23},
-       {img2:pickle24,
-         img: pickle25},
-      {img: pickle26,img2:pickle27},
-      {img: pickle28,img2:pickle29},
-      {img: pickle32,img2:pickle30},
+    { img: pickle16, img2: pickle17 },
+    { img: pickle18, img2: pickle19 },
+    { img: pickle20, img2: pickle21 },
+    { img: pickle22, img2: pickle23 },
+    { img2: pickle24, img: pickle25 },
+    { img: pickle26, img2: pickle27 },
+    { img: pickle28, img2: pickle29 },
+    { img: pickle32, img2: pickle30 },
   ];
   const Marquee = styled.div`
     display: flex;
     width: 100%;
     top: 70px;
-    gap:15px;
+    gap: 15px;
     overflow: hidden;
     user-select: none;
 
@@ -135,7 +124,7 @@ function Nftscollection() {
     align-items: center;
     justify-content: space-around;
     white-space: nowrap;
-    gap:15px;
+    gap: 15px;
     width: 100%;
     animation: ${scrollX} 30s linear infinite;
   `;
@@ -150,20 +139,20 @@ function Nftscollection() {
   `;
 
   const ImageGroup = styled.div`
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     width: 15%;
     ${"" /* width: clamp(10rem, 1rem + 40vmin, 30rem); */}
     ${"" /* padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10); */}
   `;
   const ImageGroup2 = styled.div`
-  display:flex;
-    flex-direction:column;
-  margin: 70px 0px 0px 0px;
-  width: 15%;
-  ${"" /* width: clamp(10rem, 1rem + 40vmin, 30rem); */}
-  ${"" /* padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10); */}
-`;
+    display: flex;
+    flex-direction: column;
+    margin: 70px 0px 0px 0px;
+    width: 15%;
+    ${"" /* width: clamp(10rem, 1rem + 40vmin, 30rem); */}
+    ${"" /* padding: calc(clamp(10rem, 1rem + 30vmin, 30rem) / 10); */}
+  `;
 
   const Image = styled.img`
     object-fit: cover;
@@ -182,65 +171,66 @@ function Nftscollection() {
           <span>PickleButts</span>
           <h2>A deflationary NFT collection</h2>
           <p>
-            6,900 memeable PickleButt NFTs were minted on the Cardano blockchain 
-            and sold out within an hour on February 3rd, 2024. Each NFT was 
-            minted for 1M $PICKLE, with 500k $PICKLE burnt to $burnsnek and the 
-            remaining 500k attached to each NFT. The vision for the PickleButts 
-            NFT collection is for it to appreciate in value and decrease in 
-            supply over time as various sources of passive income accumulate. 
-            The initial income source was tying $PICKLE to each NFT. Additional 
-            income sources include secondary market royalties and Pickle Arcade 
-            revenue share. To access the income linked to an NFT, it must be 
-            burned via Picklehub.
+            6,900 PickleButt NFTs were minted on Cardano and sold out in an hour
+            on February 3rd, 2024. Each NFT minted for 1M $PICKLE: 500k $PICKLE
+            was burned, and 500k was attached to the NFT. The collection is
+            designed to gain value and decrease in supply over time as passive
+            income accrues from various sources. Income sources include $PICKLE
+            tied to each NFT, royalties from secondary market sales, and revenue
+            share from the Pickle Arcade. To access the income linked to an NFT,
+            it must be burned via Picklehub.
           </p>
           <p className="row">
             {" "}
             <p className="row2">
-              Learn more <span className="circle"><BsArrowRight /></span>
+              Learn more{" "}
+              <span className="circle">
+                <BsArrowRight />
+              </span>
             </p>
             <p className="row2">
               {" "}
-              Explore on Picklehub <span className="circle"><IoSearchOutline />
-</span>
+              Explore on Picklehub{" "}
+              <span className="circle">
+                <IoSearchOutline />
+              </span>
             </p>
           </p>
         </div>
         <div className="nft-collection-bottom">
-        <Marquee>
-        <MarqueeGroup>
-          {row1.map((el,index) => (
-            (index + 1) % 2 === 0 ?(
-            <ImageGroup>
-              <Image src={el.img} />
-              <Image src={el.img2} />
-            </ImageGroup>):
-            (
-            <ImageGroup2>
-            <Image src={el.img} />
-              <Image src={el.img2} />
-            </ImageGroup2>
-            )
-          ))}
-        </MarqueeGroup>
-        <MarqueeGroup>
-          {row2.map((el,index) => (
-            (index + 1) % 2 === 0 ?(
-            <ImageGroup>
-            <Image src={el.img} />
-              <Image src={el.img2} />
-            </ImageGroup>):
-            (
-            <ImageGroup2>
-            <Image src={el.img} />
-              <Image src={el.img2} />
-            </ImageGroup2>
-            )
-          ))}
-        </MarqueeGroup>
-      </Marquee>
-      
+          <Marquee>
+            <MarqueeGroup>
+              {row1.map((el, index) =>
+                (index + 1) % 2 === 0 ? (
+                  <ImageGroup>
+                    <Image src={el.img} />
+                    <Image src={el.img2} />
+                  </ImageGroup>
+                ) : (
+                  <ImageGroup2>
+                    <Image src={el.img} />
+                    <Image src={el.img2} />
+                  </ImageGroup2>
+                )
+              )}
+            </MarqueeGroup>
+            <MarqueeGroup>
+              {row2.map((el, index) =>
+                (index + 1) % 2 === 0 ? (
+                  <ImageGroup>
+                    <Image src={el.img} />
+                    <Image src={el.img2} />
+                  </ImageGroup>
+                ) : (
+                  <ImageGroup2>
+                    <Image src={el.img} />
+                    <Image src={el.img2} />
+                  </ImageGroup2>
+                )
+              )}
+            </MarqueeGroup>
+          </Marquee>
         </div>
-
       </div>
     </div>
   );
