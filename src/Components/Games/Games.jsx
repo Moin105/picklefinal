@@ -18,7 +18,7 @@ function Games() {
             Pickle Arcade is accessible to anyone with an internet browser,
             providing instant payouts and a secured environment.
           </p>
-          <button>Launch Arcade</button>
+          <button className="playnow">Play Now</button>
         </div>
         <div className="games-right">
           <img src={galaga} alt="games" />

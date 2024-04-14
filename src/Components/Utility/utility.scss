@@ -1,22 +1,18 @@
-.banner{
+.utility{
     display: flex;
     margin-top: 100px;
     justify-content: center;
     align-items: center;
     max-width: 1920px;
     margin: 0 auto;
-    .banner-container{
+    .utility-container{
         display: flex;
         width: 90%;
         margin: 0 auto;
         justify-content: center;
         padding: 150px 0px;
+        flex-direction: column;
         align-items: center;
-        .banner-left{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
             h2{
                 font-size: 42px;
                 font-weight: 700;
@@ -26,36 +22,108 @@
                 width: -webkit-fill-available;
                 text-align: center;
             }
-            
-            p{
-                font-size: 18px;
-                color: white;
-                width: 75%;
-
-                font-family: 'Poppins';
-                margin-top: 10px;
-                text-align: center;
-            }
-            .cards-container{
+         
+            .utility-boxes{
                 display: flex;
                 gap:20px;
                 p{
                     margin: 0;
                 }
                 margin-top: 40px;
-                .banner-card {
+                .utility-box{
                     display: inline-block;
-                    width: 250px;
-                    padding: 20px 15px;
+                    width: 445px;
+
+                    padding: 20px 20px;
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
-                    align-items: center;
                     font-size: 16px;
                     border-radius: 8px;
                     color: #fff; /* Text color */
                     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(50,52,52,1) 100%);
- /* banner-card background color */
+ /* utility-card background color */
+                    border: none;
+                    align-items: center;
+                    cursor: pointer;
+                    position: relative;
+                    font-family: 'Poppins';
+                    h3{
+                        font-size: 28px;
+                        color: white;
+                        margin-top: -30px;
+                    }
+                    img{
+                        width: 150px;
+                        height: 150px;
+                        object-fit: contain;
+                    }
+                    p{
+                        // margin-top: -30px;
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                  }
+                  
+                  /* Define the gradient for the border */
+                  .utility-box::before {
+                    content: ''; /* Required for pseudo-element */
+                    position: absolute;
+                    top: -2px;
+                    left: -2px;
+                    right: -2px;
+                    bottom: -2px;   
+                    z-index: -2;
+                    background: linear-gradient(to bottom right, #78ab46, #f7df63);
+                    border-radius: 8px;
+                  }
+                  .utility-card:hover::before {
+                    background: linear-gradient(to bottom right, #f7df63, #78ab46);
+                  }
+            }
+            .fire-stamp{
+                width: 200px;
+                height: 200px;
+                margin-top: 20px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+            .fire-text{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                gap: 15px;
+                span{
+                    color: white;
+                    font-size: 16px;
+                }
+                h2{
+                    color: white;
+                    margin-top: 30px;
+                }
+                p{
+                    color: white;
+                    margin: 0;
+                }
+                .fire-button {
+                    display: inline-block;
+                    padding: 15px 25px;
+                    display: flex;
+                    margin-top: 10px;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: black;
+                    font-size: 16px;
+                    border-radius: 8px;
+                    color: #fff; /* Text color */
+                    // background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(50,52,52,1) 100%);
+ /* fire-button background color */
                     border: none;
                     cursor: pointer;
                     position: relative;
@@ -69,7 +137,7 @@
                   }
                   
                   /* Define the gradient for the border */
-                  .banner-card::before {
+                  .fire-button::before {
                     content: ''; /* Required for pseudo-element */
                     position: absolute;
                     top: -2px;
@@ -77,11 +145,11 @@
                     right: -2px;
                     bottom: -2px;   
                     z-index: -2;
-                    background: linear-gradient(to bottom right, #78ab46, #f7df63);
+                    background: linear-gradient(to bottom right, #ff3131, #ff914d);
                     border-radius: 8px;
                   }
-                  .banner-card:hover::before {
-                    background: linear-gradient(to bottom right, #f7df63, #78ab46);
+                  .fire-button:hover::before {
+                    background: linear-gradient(to bottom right, #ff914d, #ff3131);
                   }
             }
             h4{
@@ -91,14 +159,14 @@
             }
         }
       
-    }
+    
 }
 
 @media only screen and (max-width: 1550px) {
 
-    .banner-container{
+    .utility-container{
         margin: 0 auto;
-        .banner-left{
+        .utility-left{
             width: 60%;
             h2{
                 font-size: 32px!important;
@@ -114,9 +182,9 @@
 
 @media only screen and (max-width: 1250px) {
 
-    .banner-container{
+    .utility-container{
         margin: 0 auto;
-        .banner-left{
+        .utility-left{
             width: 60%;
             h2{
                 font-size: 28px!important;
@@ -131,9 +199,9 @@
 }
 @media only screen and (max-width: 1186px) {
 
-    .banner-container{
+    .utility-container{
         margin: 0 auto;
-        .banner-left{
+        .utility-left{
             width: 60%;
             h2{
                 font-size: 24px!important;
@@ -148,9 +216,9 @@
 }
 @media only screen and (max-width: 930px) {
 
-    .banner-container{
+    .utility-container{
         margin: 0 auto;
-        .banner-left{
+        .utility-left{
             width: 60%;
             h2{
                 font-size: 20px!important;
@@ -165,11 +233,11 @@
 }
 @media only screen and (max-width: 786px) {
 
-    .banner-container{
+    .utility-container{
         margin: 0 auto;
         flex-direction: column;
         gap: 40px;
-        .banner-left{
+        .utility-left{
             width: 80% !important;
             h2{
                 font-size: 20px!important;
@@ -182,7 +250,7 @@
 
             }
         }
-        .banner-right{
+        .utility-right{
             width: 100% !important;
             img{
                 width: 100%;

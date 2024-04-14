@@ -2,6 +2,7 @@ import React from 'react'
 import smoke from '../../Assets/smoke.jpeg'
 import NomicsCard from './NomicsCard'
 import PieChart from './PieChart';
+import chart from '../../Assets/chart.png'
 function Tokenomics() {
   const tokenols =  [
      { title:  "Token Sale - 40%",
@@ -41,11 +42,10 @@ description:''}
    </span>  */}
     <div className='tokenomics-container'>
          <div className='card-item'>
-                <h2>Picklenomics</h2>
-                <p className='suo'>Our Picklenomics are designed to reward holders while increasing the value of the token over time. </p>
+                <h2>Pickle Tokenomics</h2>
              <div className='items' >
                 <div className='item-left'>
-                <PieChart data={data} />
+                <img src={chart}/>
                 </div>
                 <div className='item-right'>
                 {tokenols.map((item, index) => (

@@ -8,7 +8,6 @@ function NomicsCard({text, description, bg}) {
       </div>
       <div className='nomics-card-right'>
          <h3>{text}</h3>
-      {description &&   <p>{description}</p>}
       </div>
           </div>
   )

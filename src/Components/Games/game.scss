@@ -40,20 +40,37 @@
                 margin-top: 20px;
                 text-align: left;
             }
-            button{
-                font-size: 18px;
-                color: white;
-                background-color: black;
-                border: 1px solid green;
-                padding: 10px 20px;
+            .playnow {
+                display: inline-block;
+                padding: 10px 35px;
+                
+                font-size: 16px;
+                color: #fff; /* Text color */
+                background-color: #000; /* playnow background color */
+                border: none;
+                cursor: pointer;
+                position: relative;
+                border-radius: 8px;
                 font-family: 'Poppins';
-                margin-top: 20px;
-                text-align: left;
-                &:hover {
-                    background-color: green;
-                    color: black;
-                  }
-            }
+                margin: 20px 0px 0px 0px;
+              }
+              
+              /* Define the gradient for the border */
+              .playnow::before {
+                content: ''; /* Required for pseudo-element */
+                position: absolute;
+                top: -2px;
+                left: -2px;
+                right: -2px;
+                bottom: -2px;
+                
+                z-index: -1;
+                background: linear-gradient(to bottom right, #78ab46, #f7df63);
+                border-radius: 8px;
+              }
+              .playnow:hover::before {
+                background: linear-gradient(to bottom right, #f7df63, #78ab46);
+              }
         }
         .games-right{
             width: 63%;
@@ -68,7 +85,7 @@
             img{
                 width: 47%;
                 border: 1px solid white;
-                border-radius: 3px;
+                border-radius: 8px;
             }
         }
     }

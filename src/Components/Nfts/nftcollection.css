@@ -1,0 +1,62 @@
+.nft-collection {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.nft-collection .nft-collection-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  padding: 150px 0px;
+  align-items: center;
+}
+.nft-collection .nft-collection-container .nft-collection-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+.nft-collection .nft-collection-container .nft-collection-top span {
+  font-size: 16px;
+  color: green;
+  margin: 20px 0px 20px 0px;
+}
+.nft-collection .nft-collection-container .nft-collection-top h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Poppins";
+  min-width: 70%;
+  color: white;
+  width: -webkit-fill-available;
+  text-align: left;
+}
+.nft-collection .nft-collection-container .nft-collection-top p {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins";
+  margin-top: 10px;
+  text-align: left;
+}
+.nft-collection .nft-collection-container .nft-collection-top .row {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  text-align: left;
+}
+.nft-collection .nft-collection-container .nft-collection-top .row2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+}
+.nft-collection .nft-collection-container .nft-collection-top h4 {
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+}/*# sourceMappingURL=nftcollection.css.map */

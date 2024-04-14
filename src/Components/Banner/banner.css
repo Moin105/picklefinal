@@ -1,7 +1,6 @@
 .banner {
   display: flex;
-  height: 100vh;
-  margin-top: -100;
+  margin-top: 100px;
   justify-content: center;
   align-items: center;
   max-width: 1920px;
@@ -11,9 +10,15 @@
   display: flex;
   width: 90%;
   margin: 0 auto;
+  justify-content: center;
+  padding: 150px 0px;
+  align-items: center;
 }
 .banner .banner-container .banner-left {
-  max-width: 734px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .banner .banner-container .banner-left h2 {
   font-size: 42px;
@@ -22,28 +27,65 @@
   min-width: 70%;
   color: white;
   width: -webkit-fill-available;
-  text-align: left;
+  text-align: center;
 }
 .banner .banner-container .banner-left p {
   font-size: 18px;
   color: white;
   width: 75%;
   font-family: "Poppins";
-  margin-top: 20px;
-  text-align: left;
+  margin-top: 10px;
+  text-align: center;
 }
-.banner .banner-container .banner-right {
-  width: 40%;
+.banner .banner-container .banner-left .cards-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 40px;
+  /* Define the gradient for the border */
+}
+.banner .banner-container .banner-left .cards-container p {
+  margin: 0;
+}
+.banner .banner-container .banner-left .cards-container .banner-card {
+  display: inline-block;
+  width: 250px;
+  padding: 20px 15px;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
+  font-size: 16px;
+  border-radius: 8px;
+  color: #fff; /* Text color */
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 0%, rgb(50, 52, 52) 100%);
+  /* banner-card background color */
+  border: none;
+  cursor: pointer;
+  position: relative;
+  font-family: "Poppins";
 }
-.banner .banner-container .banner-right img {
-  width: 200px;
-  margin: 0 auto;
-  height: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+.banner .banner-container .banner-left .cards-container .banner-card h3 {
+  font-size: 28px;
+  color: white;
+}
+.banner .banner-container .banner-left .cards-container .banner-card::before {
+  content: ""; /* Required for pseudo-element */
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  z-index: -2;
+  background: linear-gradient(to bottom right, #78ab46, #f7df63);
+  border-radius: 8px;
+}
+.banner .banner-container .banner-left .cards-container .banner-card:hover::before {
+  background: linear-gradient(to bottom right, #f7df63, #78ab46);
+}
+.banner .banner-container .banner-left h4 {
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
 }
 
 @media only screen and (max-width: 1550px) {
@@ -52,7 +94,6 @@
   }
   .banner-container .banner-left {
     width: 60%;
-    max-width: 534px;
   }
   .banner-container .banner-left h2 {
     font-size: 32px !important;

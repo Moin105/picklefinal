@@ -47,8 +47,8 @@
 .learncontainer .learnbottom {
   display: flex;
   justify-content: center;
-  background-color: #F4F4F3;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   flex-direction: column;
   align-items: center;
 }
@@ -62,6 +62,6 @@
   display: flex;
   font-size: 28px;
   gap: 20px;
-  color: black;
+  color: white;
   margin-bottom: 50px;
 }/*# sourceMappingURL=learnmore.css.map */

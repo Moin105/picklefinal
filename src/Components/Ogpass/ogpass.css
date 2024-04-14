@@ -1,0 +1,70 @@
+.ogpass {
+  display: flex;
+  margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.ogpass .ogpass-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 0px 0px 150px 0px;
+  align-items: center;
+}
+.ogpass .ogpass-container .ogpass-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 40%;
+}
+.ogpass .ogpass-container .ogpass-left span {
+  font-size: 16px;
+  color: green;
+  margin: 20px 0px 20px 0px;
+}
+.ogpass .ogpass-container .ogpass-left h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Poppins";
+  min-width: 70%;
+  color: white;
+  width: -webkit-fill-available;
+  text-align: left;
+}
+.ogpass .ogpass-container .ogpass-left p {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins";
+  margin-top: 10px;
+  text-align: left;
+}
+.ogpass .ogpass-container .ogpass-left .row {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  text-align: left;
+}
+.ogpass .ogpass-container .ogpass-left .row2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+}
+.ogpass .ogpass-container .ogpass-left h4 {
+  font-size: 20px;
+  color: white;
+  margin-top: 30px;
+}
+.ogpass .ogpass-container .ogpass-right {
+  width: 60%;
+}
+.ogpass .ogpass-container .ogpass-right img {
+  width: 100%;
+  height: 70%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=ogpass.css.map */
