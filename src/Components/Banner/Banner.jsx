@@ -11,11 +11,11 @@ function Banner() {
     <div className="banner">
       <div className="banner-container">
         <div className="banner-left">
-          <h2>Welcome to the new era of online arcade</h2>
+          <h2>Welcome to the new era of online arcades</h2>
           <br></br>
           <p>
-            Step into the premier online platform where competitive gaming meets
-            cryptocurrency wagerring.
+            Jump into the premier online platform where competitive gaming meets
+            cryptocurrency wagering.
           </p>
           <h4>Arcade Stats</h4>
           <div className="cards-container">
@@ -25,7 +25,7 @@ function Banner() {
             </div>
             <div className="banner-card">
               <h3>10,000+</h3>
-              <p>Matched Played</p>
+              <p>Matches Played</p>
             </div>
             <div className="banner-card">
               <h3>1,000,000+</h3>

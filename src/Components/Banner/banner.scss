@@ -152,6 +152,57 @@
         margin: 0 auto;
         .banner-left{
             width: 60%;
+            .cards-container{
+                display: flex;
+                gap:20px;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                p{
+                    margin: 0;
+                }
+                margin-top: 40px;
+                .banner-card {
+                    display: inline-block;
+                    width: 250px;
+                    padding: 20px 15px;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    font-size: 16px;
+                    border-radius: 8px;
+                    color: #fff; /* Text color */
+                    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(50,52,52,1) 100%);
+ /* banner-card background color */
+                    border: none;
+                    cursor: pointer;
+                    position: relative;
+                    font-family: 'Poppins';
+                    h3{
+                        font-size: 28px;
+                        color: white;
+           
+                        
+                    }
+                  }
+                  
+                  /* Define the gradient for the border */
+                  .banner-card::before {
+                    content: ''; /* Required for pseudo-element */
+                    position: absolute;
+                    top: -2px;
+                    left: -2px;
+                    right: -2px;
+                    bottom: -2px;   
+                    z-index: -2;
+                    background: linear-gradient(to bottom right, #78ab46, #f7df63);
+                    border-radius: 8px;
+                  }
+                  .banner-card:hover::before {
+                    background: linear-gradient(to bottom right, #f7df63, #78ab46);
+                  }
+            }
             h2{
                 font-size: 20px!important;
             }
