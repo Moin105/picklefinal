@@ -5,26 +5,26 @@ import PieChart from './PieChart';
 import chart from '../../Assets/chart.png'
 function Tokenomics() {
   const tokenols =  [
-     { title:  "Token Sale - 40%",
-     bg:"#24a32b",
+     { title:  "40% - Token Sale ",
+     bg:"#2ABD19",
       description: "Hard Cap of 69k ADA, fair token launch, 0% supply to founders,100% funds raised injected into liquidity pool on minswap."},
-{title:"Initial Liquidity - 30%",
-bg:"#002901",
+{title:"30% - Initial Liquidity",
+bg:"#FFE500",
 description:"Minswap initial token deposit + presale proceeds. LP Locked by Brave Dogs"},
-{title:"Marketing - 15%",
-bg:"#ff6100",
+{title:"15% - DAO Treasury",
+bg:"#139EF2",
 description: "Partnerships, Engagement Farming, Marketing Experiments."},
 // {title:"Marketing - 15%",
 // bg:"#ff6100",
 // description:''},
-{title:"Yield Farming - 10%",
-bg:"#ffe500",
+{title:"10% - Blockchain Expansion",
+bg:"#CB6CE7",
 description:''},
-{title:"CEX Listings - 4%",
-bg:"#043bfa",
+{title:"4% - CEX Listings/Partnerships",
+bg:"#FE6100",
 description:''},
-{title:"Airdrop- 1%",
-bg:"#ff50de",
+{title:"1% - Airdrop",
+bg:"#FE3131",
 description:''}    
     ]
     const data = [
