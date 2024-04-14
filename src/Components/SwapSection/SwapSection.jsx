@@ -13,7 +13,7 @@ function SwapSection() {
                <img src={videoSource} alt="loading..."  />
                </div>
                   <h2>PICKLE Token</h2>
-                  <p>The thiccest memecoin providing dillish utility to those who hold</p>
+                  <p>The thiccest memecoin providing dillish utility to those who hodl</p>
                   <Swap
       orderTypes={["SWAP"]}
       defaultToken="3c8cceafc16845f6ee5afe36f1521f0d1a384b55a69242eb5154cdef5049434b4c45"
