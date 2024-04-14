@@ -11,7 +11,7 @@
   width: 90%;
   margin: 0 auto;
   justify-content: center;
-  padding: 50px 0px;
+  padding: 10px 0px;
   flex-direction: column;
   align-items: center;
 }
@@ -81,7 +81,7 @@
 }
 .utility .utility-container .fire-stamp {
   width: 200px;
-  height: 200px;
+  height: 100px;
   margin-top: 20px;
 }
 .utility .utility-container .fire-stamp img {
