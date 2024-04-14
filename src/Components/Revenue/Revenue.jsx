@@ -50,15 +50,15 @@ function Revenue() {
           <div className="revenues">
             <div className="revenue-card3">
               <h3>76%</h3>
-              <p>Memes</p>
+              <p>Circulating Supply</p>
             </div>
             <div className="revenue-card3">
               <h3>4.38%</h3>
-              <p>Memes</p>
+              <p>NFTs Listed</p>
             </div>
             <div className="revenue-card3">
               <h3>100%</h3>
-              <p>Memes</p>
+              <p>Vibes</p>
             </div>
           </div>
           <div className="revenuess">
@@ -68,7 +68,7 @@ function Revenue() {
             </div>{" "}
             <div className="revenue-card4">
               <h3>6,846</h3>
-              <p>Memes</p>
+              <p>Remaining NFTs</p>
             </div>
           </div>
         </div>

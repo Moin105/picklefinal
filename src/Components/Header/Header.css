@@ -261,7 +261,7 @@
   }
   .headers .nav-header nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #fff !important;
     font-size: 20px;
   }
   .headers .nav-header nav ul li:hover {
